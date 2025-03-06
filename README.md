@@ -1,2 +1,2 @@
-# What kind of game are we going to make?
+# Just a small game
  
