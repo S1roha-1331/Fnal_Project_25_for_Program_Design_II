@@ -1,37 +1,59 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
+
     private Rigidbody2D rb;
-    private Vector2 movement;
     private SpriteRenderer sr;
     private Animator animator;
+
+    private Vector2 moveInput;
+    private Vector2 lookInput;
+
+    private PlayerInputActions inputActions;
+
+    private void Awake()
+    {
+        inputActions = new PlayerInputActions();
+
+        inputActions.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
+        inputActions.Player.Move.canceled += ctx => moveInput = Vector2.zero;
+
+        inputActions.Player.Look.performed += ctx => lookInput = ctx.ReadValue<Vector2>();
+        inputActions.Player.Look.canceled += ctx => lookInput = Vector2.zero;
+    }
+
+    private void OnEnable() => inputActions.Enable();
+    private void OnDisable() => inputActions.Disable();
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
-        animator = GetComponent<Animator>(); // ✅ 加這行！
+        animator = GetComponent<Animator>();
     }
 
     void Update()
     {
-        movement.x = Input.GetAxis("Horizontal");
-        movement.y = Input.GetAxis("Vertical");
-
-        // 翻面
-        if (movement.x < 0)
+        // 翻轉角色圖像
+        if (moveInput.x < 0)
             sr.flipX = true;
-        else if (movement.x > 0)
+        else if (moveInput.x > 0)
             sr.flipX = false;
 
-        // 控制動畫切換
-        animator.SetBool("isWalking", movement != Vector2.zero);
+        // 控制動畫播放
+        animator.SetBool("isWalking", moveInput != Vector2.zero);
     }
 
     void FixedUpdate()
     {
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        rb.MovePosition(rb.position + moveInput * moveSpeed * Time.fixedDeltaTime);
+    }
+
+    public Vector2 GetAttackDirection()
+    {
+        return lookInput.normalized;
     }
 }
