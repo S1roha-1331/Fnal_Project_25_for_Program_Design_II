@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Burst.CompilerServices;
 using UnityEngine;
 
 public class AI1 : MonoBehaviour
@@ -14,8 +15,8 @@ public class AI1 : MonoBehaviour
     public float pauseChance = 0.01f;
     public float pauseDuration = 0.5f;
 
-    public float attackRange = 6f;      // ï¿½iï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½Ò¦ï¿½ï¿½ï¿½ï¿½dï¿½ï¿½
-    public float tooCloseRange = 2.5f;  // ï¿½iï¿½Jï¿½jï¿½×¼Ò¦ï¿½ï¿½ï¿½ï¿½Zï¿½ï¿½
+    public float attackRange = 6f;      // ¶i¤J§ðÀ»¼Ò¦¡ªº½d³ò
+    public float tooCloseRange = 2.5f;  // ¶i¤J°jÁ×¼Ò¦¡ªº¶ZÂ÷
 
     private float dashTimer = 0f;
     private float cooldownTimer = 0f;
@@ -32,26 +33,26 @@ public class AI1 : MonoBehaviour
         Vector3 toPlayer = (player.position - transform.position).normalized;
         Vector3 side = Vector3.Cross(toPlayer, Vector3.forward);
 
-        // Perlin ï¿½Ý°ï¿½ï¿½\ï¿½ï¿½
+        // Perlin §Ý°ÊÂ\°Ê
         wobbleTime += Time.deltaTime * wobbleFrequency;
         float wobble = Mathf.PerlinNoise(Time.time * wobbleFrequency, 0f) - 0.5f;
         Vector3 wobbleOffset = side * wobbleAmplitude * wobble;
 
         Vector3 finalDirection;
 
-        // ?? ï¿½Ò¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Gï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½jï¿½ï¿½
+        // ?? ¼Ò¦¡¤Á´«¡G§ðÀ» ©Î °jÁ×
         if (distanceToPlayer < tooCloseRange)
         {
-            // ?? ï¿½Óªï¿½ ï¿½ï¿½ ï¿½jï¿½×¼Ò¦ï¿½ï¿½]ï¿½Ï¤ï¿½V + ï¿½\ï¿½Ê¡^
+            // ?? ¤Óªñ ¡÷ °jÁ×¼Ò¦¡¡]¤Ï¤è¦V + Â\°Ê¡^
             finalDirection = (-toPlayer + wobbleOffset).normalized;
         }
         else
         {
-            // ?? ï¿½iï¿½ï¿½Ò¦ï¿½ï¿½]ï¿½aï¿½ï¿½ + ï¿½\ï¿½Ê¡^
+            // ?? ¶i§ð¼Ò¦¡¡]¾aªñ + Â\°Ê¡^
             finalDirection = (toPlayer + wobbleOffset).normalized;
         }
 
-        // ?? ï¿½È°ï¿½ï¿½Þ¿ï¿½
+        // ?? ¼È°±ÅÞ¿è
         if (isPaused)
         {
             pauseTimer -= Time.deltaTime;
@@ -59,7 +60,7 @@ public class AI1 : MonoBehaviour
             return;
         }
 
-        // ? Dash ï¿½Ò¦ï¿½
+        // ? Dash ¼Ò¦¡
         if (isDashing)
         {
             transform.position += finalDirection * dashSpeed * Time.deltaTime;
@@ -72,18 +73,18 @@ public class AI1 : MonoBehaviour
         }
         else
         {
-            // ?? ï¿½ï¿½ï¿½É²ï¿½ï¿½ï¿½
+            // ?? ¥­®É²¾°Ê
             transform.position += finalDirection * normalSpeed * Time.deltaTime;
             cooldownTimer -= Time.deltaTime;
 
-            // ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½y
+            // °¸º¸¤p°±¹y
             if (Random.value < pauseChance)
             {
                 isPaused = true;
                 pauseTimer = pauseDuration;
             }
 
-            // ?? ï¿½ï¿½ï¿½bï¿½uï¿½ï¿½ï¿½ï¿½ï¿½dï¿½ï¿½vï¿½ï¿½ï¿½~ï¿½iï¿½ï¿½ Dash
+            // ?? ·í¦b¡u§ðÀ»½d³ò¡v¤º¤~¥i¯à Dash
             if (cooldownTimer <= 0f && distanceToPlayer < attackRange)
             {
                 isDashing = true;

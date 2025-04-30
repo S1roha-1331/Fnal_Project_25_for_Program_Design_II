@@ -7,7 +7,7 @@ public class attackjudge : MonoBehaviour
     private attack Attack;
     private void Start()
     {
-        Attack =GetComponentInParent<attack>();
+        Attack = GetComponentInParent<attack>();
     }
     void OnTriggerEnter2D(Collider2D other)
     {
