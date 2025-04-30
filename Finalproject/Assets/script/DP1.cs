@@ -13,9 +13,26 @@ public class DP1 : MonoBehaviour
     private float pathTimer = 0f;            // 記錄冷卻時間
     private Vector3 bestDirection = Vector3.zero;  // 儲存最近一次選好的方向
 
+    private Vector3 lastPosition;  // ?? 新增：記錄上一幀的位置
+    private attack isAttack;
+    private Animator walk;
+
+    void Start()
+    {
+        lastPosition = transform.position; // 初始化位置
+
+    }
+
     void Update()
     {
+        walk=GetComponent<Animator>();
+        isAttack= GetComponentInChildren<attack>();
+        if (isAttack.isAttack)
+        {
+            return;
+        }
         pathTimer -= Time.deltaTime;
+
 
         if (pathTimer <= 0f)
         {
@@ -53,6 +70,29 @@ public class DP1 : MonoBehaviour
         // 最終方向（持續沿著上一次算好的方向）
         Vector3 finalDir = (bestDirection + wobble).normalized;
 
+        // 移動
         transform.position += finalDir * speed * Time.deltaTime;
+
+        // ?? 新增：判斷座標變化
+        Vector3 movement = transform.position - lastPosition;
+
+        if (movement.magnitude < 0.001f)
+        {
+           walk.SetBool("walk", false);
+        }
+        else
+        {
+            walk.SetBool("walk", true);
+            if (movement.x > 0)
+            {
+                GetComponent<SpriteRenderer>().flipX = false;
+            }
+            else if (movement.x < 0)
+            {
+                GetComponent<SpriteRenderer>().flipX = true;
+            }
+        }
+
+        lastPosition = transform.position; // 更新上一幀的位置
     }
 }

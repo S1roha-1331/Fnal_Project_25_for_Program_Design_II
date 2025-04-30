@@ -1,7 +1,11 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+<<<<<<< Updated upstream:Finalproject/Assets/Scenes/NewBehaviourScript.cs
 public class PlayerController : MonoBehaviour
+=======
+public class playController : MonoBehaviour
+>>>>>>> Stashed changes:Finalproject/Assets/script/playerController.cs
 {
     public float moveSpeed = 5f;
 
