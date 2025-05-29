@@ -36,7 +36,7 @@ public class playerHealth : MonoBehaviour
     public void takeDamage(float amount)
     {
         Debug.Log($"受到{amount}點傷害");
-        anim.SetBool("hurt", true);
+        //anim.SetBool("hurt", true);
         currentHp -= amount;
 
         if (currentHp <= 0)
@@ -47,7 +47,7 @@ public class playerHealth : MonoBehaviour
 
     public void Die()
     {
-        anim.SetBool("die", true);
+        //anim.SetBool("die", true);
         // 這裡可以加死亡後的處理邏輯
     }
 

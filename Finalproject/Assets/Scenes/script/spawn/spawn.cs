@@ -6,6 +6,7 @@ public class spawn : MonoBehaviour
     public float startInterval = 5f;       // 初始生成間隔時間（秒）
     public float minInterval = 1f;       // 最快生成間隔下限
     public float decreaseRate = 0.05f;     // 每次生成後減少多少間隔時間
+    public GameObject player;
 
     private float currentInterval;         // 當前間隔時間（會一直變小）
     private float timer;                   // 計時器
@@ -32,7 +33,7 @@ public class spawn : MonoBehaviour
     void SpawnEnemy()
     {
         // 產生位置：在本體附近圓形範圍外圍，距離 10 單位
-        Vector2 spawnPos = (Vector2)transform.position + Random.insideUnitCircle.normalized * 10f;
+        Vector2 spawnPos = (Vector2)player.transform.position + Random.insideUnitCircle.normalized * 10f;
 
         // 複製敵人，放到指定位置
         Instantiate(enemyPrefab, spawnPos, Quaternion.identity);

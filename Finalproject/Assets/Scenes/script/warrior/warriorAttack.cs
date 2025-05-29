@@ -8,6 +8,7 @@ public class warriorAttack : MonoBehaviour
     private float attackCooldown;
     private float attackTimer;
     private float skillTimer;
+    [SerializeField] playerHealth playerHealth;
     public void startAttack()
     {
         isAttack = true;
@@ -23,6 +24,13 @@ public class warriorAttack : MonoBehaviour
         attackCooldown=1/warriorStats.attackSpeed;
         attackTimer = attackCooldown;
         skillTimer=warriorStats.skillCooldown;  
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            playerHealth.takeDamage(warriorStats.attackDamage);
+        }
     }
 
     // Update is called once per frame

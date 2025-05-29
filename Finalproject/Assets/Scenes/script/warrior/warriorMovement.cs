@@ -31,7 +31,7 @@ public class warriorMovement : MonoBehaviour
     // Update is called once per frame
     public bool isMoving()
     {
-        return (transform.position - lastPosition).sqrMagnitude > 0.0001f;
+        return (transform.position - lastPosition).sqrMagnitude > 0.000001f;
     }
     void Update()
     {
