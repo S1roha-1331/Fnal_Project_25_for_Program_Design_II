@@ -59,90 +59,108 @@
     <Analyzer Include="G:\Unity\Editor\6000.1.0f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="G:\Unity\Editor\6000.1.0f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="G:\Unity\Editor\6000.1.0f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
+
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\script\witch\aoe1\destroy.cs" />
+    <Compile Include="Assets\Scenes\script\warrior\warriorAnimator.cs" />
+    <Compile Include="Assets\Scenes\script\newknight\knightFlip.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
-    <Compile Include="Assets\script\other\wobble2.cs" />
+    <Compile Include="Assets\Scenes\script\witch\fireball\fireHitbox.cs" />
+    <Compile Include="Assets\Scenes\script\witch\aoe1\setHitbox.cs" />
+    <Compile Include="Assets\Scenes\script\witch\fireball\fireballAnimator.cs" />
+    <Compile Include="Assets\Scenes\script\UI\expBallFly.cs" />
+    <Compile Include="Assets\Scenes\script\warrior\AttackHitbox.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+
     <Compile Include="Assets\script\UI\hpBar.cs" />
     <Compile Include="Assets\script\weapon\sword\swordControl.cs" />
+
+    <Compile Include="Assets\Scenes\script\witch\witchController.cs" />
+
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\Scenes\script\warrior\warriorAttackJudge.cs" />
     <Compile Include="Assets\player\箭頭\AttackIndicator.cs" />
     <Compile Include="Assets\script\weapon\sword\sword.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\script\other\BFS.cs" />
     <Compile Include="Assets\script\weapon\weaponAnimator.cs" />
     <Compile Include="Assets\script\warrior\warriorAnimator.cs" />
+
+    <Compile Include="Assets\Scenes\script\witch\fireball\fireballFly.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\Scenes\script\newknight\knightAnimator.cs" />
+    <Compile Include="Assets\Scenes\script\witch\witchAnimator.cs" />
+    <Compile Include="Assets\Scenes\script\warrior\warriorStats.cs" />
+
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
-    <Compile Include="Assets\script\spawn\spawn.cs" />
-    <Compile Include="Assets\script\witch\witchAttack.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\Scenes\script\interface\IDamageable.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
-    <Compile Include="Assets\script\UI\experienceBar.cs" />
+
     <Compile Include="Assets\script\warrior\warriorStats.cs" />
     <Compile Include="Assets\script\weapon\weaponControl.cs" />
     <Compile Include="Assets\script\player\playerController.cs" />
     <Compile Include="Assets\script\enemy1\kightstats.cs" />
+
+    <Compile Include="Assets\Scenes\script\UI\experienceBar.cs" />
+
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
-    <Compile Include="Assets\script\witch\witchAnimator.cs" />
-    <Compile Include="Assets\script\other\playerController.cs" />
+    <Compile Include="Assets\Scenes\script\newknight\knightAttackHitbox.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
-    <Compile Include="Assets\script\witch\aoe1\setHitbox.cs" />
+    <Compile Include="Assets\Scenes\script\warrior\warriorMovement.cs" />
+    <Compile Include="Assets\Scenes\script\witch\aoe1\destroy.cs" />
+    <Compile Include="Assets\Scenes\script\newknight\knightStats.cs" />
+    <Compile Include="Assets\Scenes\script\UI\hpBar.cs" />
+    <Compile Include="Assets\Scenes\script\witch\witchStats.cs" />
     <Compile Include="Assets\player\PlayerInputActions.cs" />
-    <Compile Include="Assets\script\UI\expBallFly.cs" />
-    <Compile Include="Assets\script\other\wobble1.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\Scenes\script\warrior\warriorAttack.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\Scenes\script\witch\aoe1\aoe1Flip.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
-    <Compile Include="Assets\script\witch\witchStats.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+
     <Compile Include="Assets\script\witch\aoe1\aoe1.cs" />
-    <Compile Include="Assets\script\warrior\warriorAttackJudge.cs" />
-    <Compile Include="Assets\script\witch\witchMovement.cs" />
     <Compile Include="Assets\script\weapon\weaponStat.cs" />
     <Compile Include="Assets\script\player\playerStats.cs" />
     <Compile Include="Assets\script\other\AI1.cs" />
+
+    <Compile Include="Assets\Scenes\script\warrior\warriorFlip.cs" />
+    <Compile Include="Assets\Scenes\script\witch\witchMovement.cs" />
+
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
-    <Compile Include="Assets\script\warrior\AttackHitbox.cs" />
-    <Compile Include="Assets\script\other\dash1.cs" />
+    <Compile Include="Assets\Scenes\script\player\playerStats.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
-    <Compile Include="Assets\script\enemy1\hitbox.cs" />
-    <Compile Include="Assets\script\witch\witchFlip.cs" />
-    <Compile Include="Assets\script\enemy1\attackjudge.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
-    <Compile Include="Assets\script\other\DP1.cs" />
+    <Compile Include="Assets\Scenes\script\witch\witchAttack.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\Scenes\script\warrior\warriorController.cs" />
+    <Compile Include="Assets\Scenes\script\spawn\spawn.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
-    <Compile Include="Assets\script\witch\fireball\fireballAnimator.cs" />
+    <Compile Include="Assets\Scenes\script\witch\aoe1\aoe1.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-    <Compile Include="Assets\script\enemy1\knightMovement.cs" />
-    <Compile Include="Assets\script\witch\aoe1\aoe1Flip.cs" />
+    <Compile Include="Assets\Scenes\script\witch\witchFlip.cs" />
+    <Compile Include="Assets\Scenes\script\newknight\knightAttackJudge.cs" />
+    <Compile Include="Assets\Scenes\script\newknight\knightMovement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
-    <Compile Include="Assets\script\witch\fireball\fireballFly.cs" />
+    <Compile Include="Assets\Scenes\script\player\playerHealth.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
-    <Compile Include="Assets\script\other\trigger.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
-    <Compile Include="Assets\script\warrior\warriorAttack.cs" />
-    <Compile Include="Assets\script\player\playerHealth.cs" />
-    <Compile Include="Assets\script\warrior\warriorFlip.cs" />
-    <Compile Include="Assets\script\enemy1\attack.cs" />
-    <Compile Include="Assets\script\warrior\warriorController.cs" />
-    <Compile Include="Assets\script\witch\fireball\fireHitbox.cs" />
-    <Compile Include="Assets\script\witch\witchController.cs" />
+    <Compile Include="Assets\Scenes\script\player\test.cs" />
+    <Compile Include="Assets\Scenes\script\player\playerController.cs" />
+    <Compile Include="Assets\Scenes\script\newknight\knightAttack.cs" />
+    <Compile Include="Assets\Scenes\script\newknight\knightController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
-    <Compile Include="Assets\script\warrior\warriorMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -1357,6 +1375,214 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.InputSystem.ForUI.csproj">
+      <Project>{B797A152-E433-F3EE-27F8-99AACBC0B556}</Project>
+      <Name>Unity.InputSystem.ForUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{FE6C4DA3-3242-9431-8968-DFAFCA506811}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{F1338BCE-EFB7-CDC2-9535-0E0623C120CC}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.csproj">
+      <Project>{FC480503-44B6-344C-7DC5-01A2C825ECE5}</Project>
+      <Name>Unity.AI.Navigation</Name>
+    </ProjectReference>
+    <ProjectReference Include="PsdPlugin.csproj">
+      <Project>{7F7A61F9-A713-425A-0863-07B67CB1BEA0}</Project>
+      <Name>PsdPlugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Common.Editor.csproj">
+      <Project>{471C4170-304C-F93E-FF3E-BA3B808FB363}</Project>
+      <Name>Unity.2D.Common.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Common.Path.Editor.csproj">
+      <Project>{936930CD-7F47-937D-2A39-D46A8915FFD8}</Project>
+      <Name>Unity.2D.Common.Path.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.IK.Editor.csproj">
+      <Project>{99F62B01-AC55-5216-A7A5-CE801B4F9901}</Project>
+      <Name>Unity.2D.IK.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.IK.Runtime.csproj">
+      <Project>{E48AEDE0-634C-AB00-EDFA-5451BCF3DABE}</Project>
+      <Name>Unity.2D.IK.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
+      <Project>{1290F537-B170-625F-95ED-1DA414CEADE5}</Project>
+      <Name>Unity.2D.SpriteShape.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{0B8E73CE-630B-0280-F847-1A97E0CD8123}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{841B3AEE-7E09-443C-9183-C35BD73728C3}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{5B352654-0DCE-0B9D-FFD1-6AC3391D5AAC}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{B04A4286-61C7-F2C6-578A-ED500374AA6F}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Aseprite.Editor.csproj">
+      <Project>{BDB8334E-6D40-A515-68E7-3C219B0B9F02}</Project>
+      <Name>Unity.2D.Aseprite.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Multiplayer.Center.Editor.csproj">
+      <Project>{C9B532EF-42D8-D681-BE5D-12C4F85E6266}</Project>
+      <Name>Unity.Multiplayer.Center.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
+      <Project>{77660267-C3F7-1AFF-651E-52C4B55F7AB3}</Project>
+      <Name>Unity.Mathematics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
+      <Project>{FE44E2D4-EF16-0806-150C-A91195F4D7E4}</Project>
+      <Name>Unity.InternalAPIEditorBridge.001</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
+      <Project>{FADD60C0-B259-D98C-7C88-8100B97CCB35}</Project>
+      <Name>Unity.2D.Animation.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Collections.csproj">
+      <Project>{25D7567F-6D83-5641-FB4A-30D3FCC87D06}</Project>
+      <Name>Unity.Collections</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.PixelPerfect.Editor.csproj">
+      <Project>{31942036-8E94-DACD-2265-49DD5647772D}</Project>
+      <Name>Unity.2D.PixelPerfect.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
+      <Project>{2B10366D-7679-90E0-072B-9D8C58806FE6}</Project>
+      <Name>Unity.VisualScripting.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEngineBridge.001.csproj">
+      <Project>{F911E9A9-0024-58C3-73C1-F80B8C105CD2}</Project>
+      <Name>Unity.InternalAPIEngineBridge.001</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
+      <Project>{EEEC0646-7BAB-6496-B8CD-3B71291C635C}</Project>
+      <Name>Unity.2D.Tilemap.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Aseprite.Common.csproj">
+      <Project>{C58A81E7-2421-9AA5-2339-1CCCF88AD9F6}</Project>
+      <Name>Unity.2D.Aseprite.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
+      <Project>{7D9BAB97-4AC8-B8C3-B531-604BDFE1FF82}</Project>
+      <Name>Unity.2D.Animation.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Collections.Editor.csproj">
+      <Project>{958A7ADE-FA8D-C2E4-CD4F-A8998A4933E8}</Project>
+      <Name>Unity.Collections.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">
+      <Project>{AE5C8668-D0E7-EBC5-A5F8-AB0196137375}</Project>
+      <Name>Unity.2D.Tilemap.Extras.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
+      <Project>{BAA340F7-D0B7-C24C-1E7B-705760657A9A}</Project>
+      <Name>Unity.VisualScripting.Shared.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
+      <Project>{6579A77C-F4B6-9665-76FB-499752989BE7}</Project>
+      <Name>Unity.VisualScripting.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Multiplayer.Center.Common.csproj">
+      <Project>{37D677CD-2AEE-405E-AE88-FA82559E375D}</Project>
+      <Name>Unity.Multiplayer.Center.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Updater.csproj">
+      <Project>{BEC423FE-C9DA-2C6C-8D79-49EB4C3D15F7}</Project>
+      <Name>Unity.AI.Navigation.Updater</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
+      <Project>{E227E0BB-8863-C5BC-474F-799C10EABA9B}</Project>
+      <Name>Unity.VisualScripting.Flow.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{D3705E91-2C58-8AFF-6146-A616FF8A1566}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
+      <Project>{6A30E9E8-1A07-1953-AF26-285FA07318F1}</Project>
+      <Name>Unity.2D.Tilemap.Extras</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
+      <Project>{2167D5A7-F05F-0698-2376-1A6F5F20E213}</Project>
+      <Name>Unity.2D.Common.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
+      <Project>{DAE068FD-B5EF-D96A-29EF-3EC9F12F5B48}</Project>
+      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
+      <Project>{B8B07CFA-201C-A6E7-C9E5-B1312686B229}</Project>
+      <Name>Unity.VisualScripting.State.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Editor.csproj">
+      <Project>{AB47C5CF-D17A-9146-2968-9CF6E6767858}</Project>
+      <Name>Unity.AI.Navigation.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.csproj">
+      <Project>{901B652B-54AE-609C-66F3-05D2EFDCB7C2}</Project>
+      <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.csproj">
+      <Project>{0276E72A-2534-0934-9949-6C0250B822AF}</Project>
+      <Name>Unity.VisualScripting.State</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.SpriteShape.Editor.csproj">
+      <Project>{D6912398-83E9-65A6-BEDB-D522FC6C6D97}</Project>
+      <Name>Unity.2D.SpriteShape.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
+      <Project>{F6234628-1535-1AE1-C956-70D749B3988A}</Project>
+      <Name>Unity.2D.Sprite.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Editor.ConversionSystem.csproj">
+      <Project>{BD0B949C-16D7-0A18-AC06-D6DF240AC34B}</Project>
+      <Name>Unity.AI.Navigation.Editor.ConversionSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Psdimporter.Editor.csproj">
+      <Project>{EB2466A9-49D1-4390-FE98-CB8BDFE322AA}</Project>
+      <Name>Unity.2D.Psdimporter.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{A65EBDE5-8BD6-7636-9126-EBE10519910E}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.Editor.csproj">
+      <Project>{6C9AA6D3-8E9F-7CA9-4A00-A03E1B65081A}</Project>
+      <Name>Unity.Burst.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.PixelPerfect.csproj">
+      <Project>{14486976-54E6-C164-9DBE-5E2E5DA421E7}</Project>
+      <Name>Unity.2D.PixelPerfect</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.csproj">
+      <Project>{032BA6B9-4EF8-D9F0-5C5E-C950661BD84E}</Project>
+      <Name>Unity.Burst</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{C7B90A58-4AEA-02BA-FFF6-4B7C166CEB15}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
+      <Project>{8ECBDBCA-977B-4B11-20EE-0D11976805F5}</Project>
+      <Name>Unity.VisualScripting.Flow</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.csproj">
+      <Project>{B77DA835-7369-3CFC-C2F5-4E6789A6F5E9}</Project>
+      <Name>Unity.InputSystem</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
