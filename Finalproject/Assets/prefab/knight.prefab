@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7465124059795674611}
   - component: {fileID: 7465124059795674610}
   - component: {fileID: 7465124059795674609}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: judgerange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 7465124060485042940}
   - component: {fileID: 1962171156019103081}
   - component: {fileID: 1962171156019103080}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: knight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -324,7 +324,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7465124060485042938}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -427,7 +427,7 @@ GameObject:
   - component: {fileID: 7465124060635544362}
   - component: {fileID: 7465124060635544404}
   - component: {fileID: 7465124060635544360}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: attackhitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
