@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class knightStats : MonoBehaviour
+public class knightStats : MonoBehaviour, IDamageable
 {
     [Header("°ò¥»¼Æ­È")]
     public float maxHealth = 300f;
@@ -26,23 +26,8 @@ public class knightStats : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if (isDead)
-        {
-            return;
-        }
-        if (currentHealth <= 0)
-        {
-            isDead = true;
-            animator.setDead(isDead);
-            StartCoroutine(DelayDie());
-        }
-    }
     void Die()
     {
-        
-
         for (int i = 0; i < gainExp; i++)
         {
             Instantiate(expBall, transform.position, Quaternion.identity);
@@ -54,6 +39,16 @@ public class knightStats : MonoBehaviour
         yield return new WaitForSeconds(1f);
         Die();
     }
-
+    public void takeDamage(float amount)
+    {
+        animator.triggerHurt();
+        currentHealth -=amount;
+        if(currentHealth <= 0)
+        {
+            isDead = true;
+            animator.setDead(isDead);
+            StartCoroutine(DelayDie());
+        }
+    }
 
 }

@@ -28,6 +28,11 @@ public class knightAnimator : MonoBehaviour
         animator.ResetTrigger("attack");
         animator.SetTrigger("attack");
     }
+    public void triggerHurt()
+    {
+        animator.ResetTrigger("hurt");
+        animator.SetTrigger("hurt");
+    }
     public void setDead(bool isDead)
     {
         animator.ResetTrigger("death");

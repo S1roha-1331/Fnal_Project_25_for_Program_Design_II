@@ -94,6 +94,7 @@ public class witchAnimator : MonoBehaviour
 
     public void triggerHurt()
     {
+        animator.ResetTrigger("hurt");
         animator.SetTrigger("hurt");
     }
 

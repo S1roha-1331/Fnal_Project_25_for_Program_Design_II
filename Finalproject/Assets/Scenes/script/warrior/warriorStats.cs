@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class warriorStats : MonoBehaviour
+public class warriorStats : MonoBehaviour, IDamageable
 {
     [Header("°ò¥»¼Æ­È")]
     public float maxHealth = 300f;
@@ -27,25 +27,31 @@ public class warriorStats : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if (isDead)
-        {
-            return;
-        }
-        if (currentHealth <= 0)
-        {
-            Die();
-        }
-    }
+   
     void Die()
     {
-        isDead = true;
-        animator.setDead(isDead);
+       
         for (int i = 0; i < gainExp; i++)
         {
             Instantiate(expBall, transform.position, Quaternion.identity);
         }
-        Destroy(gameObject, 2f);
+        Destroy(gameObject);
     }
+    public void takeDamage(float amount)
+    {
+        animator.triggerHurt();
+        currentHealth -= amount;
+        if(currentHealth <= 0)
+        {
+            isDead = true;
+            animator.setDead(isDead);
+            StartCoroutine(DelayDie());
+        }
+    }
+    IEnumerator DelayDie()
+    {
+        yield return new WaitForSeconds(1f);
+        Die();
+    }
+
 }
