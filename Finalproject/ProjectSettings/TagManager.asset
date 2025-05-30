@@ -40,9 +40,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: fuck you
-    uniqueID: 2251263939
-    locked: 0
   - name: background
     uniqueID: 3145176391
     locked: 0
