@@ -34,7 +34,7 @@ public class weaponStat : MonoBehaviour
     [Header("")]
     //will use these variable if we have time :D
     public bool attackSword = false;
-    public bool isdefaultWeapon = false;
+    public bool isDefaultweapon = false;
     public bool isUltra = false;
     public int maxLevel = 6;
 
