@@ -17,18 +17,13 @@ public class witchStats : MonoBehaviour,IDamageable
     public float aoeCooldown = 10f;         // 範圍技冷卻
     public float aoe2Cooldown = 15f;      // 召喚技能冷卻
 
-    public string bossName="witch";
     public bool isDead = false;
     public GameObject expBall;
     public witchAnimator anim;
-    [SerializeField] private bossHpBar bossHpBar;
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
-        bossHpBar.setBossName(bossName);
-        bossHpBar.setCurrentHealth(currentHealth);
-        bossHpBar.setMaxHealth(maxHealth);
     }
 
     // Update is called once per frame
@@ -39,16 +34,13 @@ public class witchStats : MonoBehaviour,IDamageable
         {
             Instantiate(expBall, transform.position, Quaternion.identity);
         }
-        bossHpBar.gameObject.SetActive(false);  
         Destroy(gameObject);
     }
     public void takeDamage(float amount)
     {
         anim.triggerHurt();
         currentHealth -= amount;
-        currentHealth = Mathf.Max(0, currentHealth);
-        bossHpBar.setCurrentHealth(currentHealth);
-        if (currentHealth <= 0)
+        if(currentHealth <= 0)
         {
             isDead = true;
             anim.triggerDeath();
