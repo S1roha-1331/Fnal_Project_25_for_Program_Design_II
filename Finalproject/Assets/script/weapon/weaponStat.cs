@@ -1,3 +1,4 @@
+using System.Threading;
 using UnityEngine;
 public enum WeaponGenre
 {
@@ -31,15 +32,15 @@ public class weaponStat : MonoBehaviour
     public bool isbroken = false;
 
     [Header("")]
+    //will use these variable if we have time :D
     public bool attackSword = false;
     public bool isdefaultWeapon = false;
-
-    //will use these variable if we have time :D
     public bool isUltra = false;
     public int maxLevel = 6;
 
     public weaponOrder order;
 
+    //determine if this is a new extra weapon
     public bool isnewWeapon()
     {
         if(weaponTag == order.latestWeapon && weaponTag >= 0)
@@ -52,14 +53,17 @@ public class weaponStat : MonoBehaviour
             return true;
         }
     }
+    //countdown cooldown time
     public void weaponCDUpdate()
     {
         attackCooldown -= Time.deltaTime;
     }
+    //countdown weapon repairtime
     public void repairCDUpdate()
     {
         weaponRepairCD -= Time.deltaTime;
     }
+    //determine if the weapon is broken or has been repaired
     public void conditioniUpdate()
     {
         if (isbroken && weaponRepairCD <= 0f)
@@ -78,6 +82,10 @@ public class weaponStat : MonoBehaviour
         weaponDamage = defaultDamage;
         weaponDurability = defaultDurability;
         attackCooldown = defaultCooldown;
+
+        //assign the genre of the weapon
+        //if()
+        //weaponGenre = WeaponGenre.melee;
     }
 
     // Update is called once per frame

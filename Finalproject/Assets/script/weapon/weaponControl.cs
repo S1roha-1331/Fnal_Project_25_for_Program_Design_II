@@ -8,6 +8,7 @@ public class weaponControl: MonoBehaviour
 
     public Transform player;
 
+    //weapon radius and theta
     public float radius = 1.5f;
     private float radian = 6.283f;
 
@@ -24,10 +25,12 @@ public class weaponControl: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //update weapon status
         stat.isnewWeapon();
         stat.conditioniUpdate();
         stat.weaponCDUpdate();
 
+        //set weapon direct by player indicator
         Vector2 dir = indicator.player.GetAttackDirection();
 
         if(dir != Vector2.zero)

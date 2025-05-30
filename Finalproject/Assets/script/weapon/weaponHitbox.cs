@@ -3,6 +3,9 @@ using UnityEngine;
 public class weaponHitbox : MonoBehaviour
 {
     public bool isAttacking = false;
+    //let the weapon lasts for at least 1 sec
+    //if there is any enemy in the range
+    public float defaultTimer = 1f;
     public float rangeTimer = 1f;
 
     public weaponStat stat;
@@ -15,6 +18,7 @@ public class weaponHitbox : MonoBehaviour
 
     public Transform player;
 
+    //have no effect now
     public void colliderUpdate()
     {
         if (weaponCollider.enabled)
@@ -37,7 +41,6 @@ public class weaponHitbox : MonoBehaviour
             weaponRange.enabled = true;
         }
     }
-
     public void hitboxAble()
     {
         //attackHitbox.SetActive(isAttacking);
@@ -47,12 +50,13 @@ public class weaponHitbox : MonoBehaviour
         attackRange.SetActive(!stat.isbroken);
     }
 
+    //redirect the direction of ranged weapon(or melee weapon)
     public void weaponRedirect()
     {
 
     }
 
-
+    //determine if there is any enemy in the attack range
     void OnTriggerStay2D(Collider2D other)
     {
         if(!stat.isbroken && other.CompareTag("Enemy"))
@@ -65,6 +69,7 @@ public class weaponHitbox : MonoBehaviour
             rangeTimer = 1f;
         }
     }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

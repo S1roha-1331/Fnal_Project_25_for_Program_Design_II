@@ -6,6 +6,9 @@ public class weaponAnimator : MonoBehaviour
     public weaponHitbox hitbox;
     public SpriteRenderer weapon;
 
+    //set the visibility of the weapon 
+    //if there is no enemy in the attack range of the weapon
+    //then the weapon will not appear
     void setVisibility()
     {
         if(hitbox.isAttacking)
@@ -17,6 +20,7 @@ public class weaponAnimator : MonoBehaviour
             weapon.material.SetColor("_Color", new Color(1.0f, 1.0f, 1.0f, 0f));
         }
     }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
