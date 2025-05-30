@@ -8,7 +8,7 @@ public class knightAttack : MonoBehaviour
     private float attackCooldown;
     private float attackTimer;
  
-    [SerializeField] private playerHealth playerHealth;
+    private playerHealth playerHealth;
     public void startAttack()
     {
         isAttack = true;
@@ -21,6 +21,8 @@ public class knightAttack : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        GameObject player = GameObject.FindWithTag("Player");
+        playerHealth=player.GetComponentInParent<playerHealth>();
         attackCooldown=1/ knightStats.attackSpeed;
         attackTimer = attackCooldown;
     }

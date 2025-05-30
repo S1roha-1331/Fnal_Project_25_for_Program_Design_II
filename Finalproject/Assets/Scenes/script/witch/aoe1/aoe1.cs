@@ -14,7 +14,7 @@ public class aoe1 : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            playerHealth hp=other.GetComponent<playerHealth>();
+            playerHealth hp=other.GetComponentInParent<playerHealth>();
             hp.takeDamage(damage);
         }
     }

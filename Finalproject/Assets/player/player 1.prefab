@@ -48,6 +48,7 @@ MonoBehaviour:
   startInterval: 3
   minInterval: 1
   decreaseRate: 0.05
+  player: {fileID: 0}
 --- !u!1 &2671186873949423915
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,7 +261,7 @@ GameObject:
   - component: {fileID: 5745532913879838175}
   m_Layer: 6
   m_Name: player 1
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -473,5 +474,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0204ff33322b2b744b5744158b11839d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHp: 0
+  currentHp: -1650
   maxHp: 0
