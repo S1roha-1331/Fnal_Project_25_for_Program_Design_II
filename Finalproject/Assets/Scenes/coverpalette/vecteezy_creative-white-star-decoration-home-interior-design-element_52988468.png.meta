@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fc605b7c995770f4198cdbe6cb57ecb9
+guid: c751f42621178294c83f55ae714e1410
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1456341392419205717
-    second: slope-dirt_0
+      213: -2490794891720618679
+    second: vecteezy_creative-white-star-decoration-home-interior-design-element_52988468_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: slope-dirt_0
+      name: vecteezy_creative-white-star-decoration-home-interior-design-element_52988468_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 31
-        width: 161
-        height: 194
+        x: 476
+        y: 137
+        width: 1636
+        height: 1450
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55238d6c7c6f53410800000000000000
-      internalID: 1456341392419205717
+      spriteID: 94d82a62e3bee6dd0800000000000000
+      internalID: -2490794891720618679
       vertices: []
       indices: 
       edges: []
@@ -134,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      slope-dirt_0: 1456341392419205717
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
