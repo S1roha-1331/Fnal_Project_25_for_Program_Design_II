@@ -48,6 +48,7 @@ MonoBehaviour:
   startInterval: 3
   minInterval: 1
   decreaseRate: 0.05
+  player: {fileID: 0}
 --- !u!1 &2671186873949423915
 GameObject:
   m_ObjectHideFlags: 0

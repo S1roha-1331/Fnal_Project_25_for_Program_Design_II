@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class playerHealth : MonoBehaviour
+public class playerHealth : MonoBehaviour,IDamageable
 {
     private playerStats stats;
     public float currentHp;
@@ -55,7 +55,7 @@ public class playerHealth : MonoBehaviour
     {
         UpdateMaxHealth();
 
-        if (restoreFullHealth)
+        if (restoreFullHealth)  
         {
             currentHp = maxHp;  // ¤É¯Å®É¦^¦å
         }
