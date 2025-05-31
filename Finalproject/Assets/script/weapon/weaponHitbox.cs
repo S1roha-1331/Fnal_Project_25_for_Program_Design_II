@@ -29,7 +29,7 @@ public class weaponHitbox : MonoBehaviour
     //public Transform parent;
     public Transform enemy;
 
-
+    public GameObject bulletPrefab;
 
     //redirect the direction of ranged weapon(or melee weapon)
     void rangedRedirect()
@@ -101,6 +101,18 @@ public class weaponHitbox : MonoBehaviour
         attackRange.SetActive(!stat.isbroken);
     }
 
+    public void bulletEvent()
+    {
+        if (isAttacking && stat.attackCooldown <= 0f)
+            bulletGenerate();
+    }
+    public void bulletGenerate()
+    {
+        Instantiate(bulletPrefab, transform.position, Quaternion.identity, transform);
+        stat.attackCooldown = stat.defaultCooldown;
+        stat.weaponDurability -= stat.downgradePerhit;
+    }
+
     //determine if there is any enemy in the attack range
     void OnTriggerStay2D(Collider2D other)
     {
@@ -144,9 +156,13 @@ public class weaponHitbox : MonoBehaviour
         if (stat.weaponGenre == WeaponGenre.melee)
             meleeWield();
         else if(stat.weaponGenre == WeaponGenre.ranged)
+        {
             rangedRedirect();
+            bulletEvent();
+        }
         wieldClockwise = control.isClockwise();
         rangeTimer -= Time.deltaTime;
+
         
     }
 }

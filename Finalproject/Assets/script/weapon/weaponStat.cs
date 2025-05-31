@@ -68,14 +68,19 @@ public class weaponStat : MonoBehaviour
     }
     //determine if the weapon is broken or has been repaired
     public void conditioniUpdate()
-    {
-        if (isbroken && weaponRepairCD <= 0f)
-            isbroken = false;
-        else if (weaponDurability <= 0f)
+    {   
+        if (weaponDurability <= 0f)
         {
             isbroken = true;
             repairCDUpdate();
         }
+        else if (isbroken && weaponRepairCD <= 0f)
+        {
+            isbroken = false;
+            weaponDurability = maxDurability;
+        }
+        else
+            isbroken = false;
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
