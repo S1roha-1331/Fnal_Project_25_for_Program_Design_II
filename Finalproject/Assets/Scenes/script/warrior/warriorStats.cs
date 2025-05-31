@@ -19,6 +19,7 @@ public class warriorStats : MonoBehaviour, IDamageable
     public int gainExp = 0;
     private warriorAnimator animator;
     public GameObject expBall;
+    [SerializeField] private GameObject damagePopupPrefab;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +41,7 @@ public class warriorStats : MonoBehaviour, IDamageable
     public void takeDamage(float amount)
     {
         animator.triggerHurt();
+        showDamagePopup(amount);
         currentHealth -= amount;
         if(currentHealth <= 0)
         {
@@ -52,6 +54,12 @@ public class warriorStats : MonoBehaviour, IDamageable
     {
         yield return new WaitForSeconds(1f);
         Die();
+    }
+    public void showDamagePopup(float amount)
+    {
+        Vector3 spawnPos = transform.position + new Vector3(0, 1f, 0);
+        GameObject popupGO = Instantiate(damagePopupPrefab, spawnPos, Quaternion.identity);
+        popupGO.GetComponent<DamagePopup>().Setup(amount);
     }
 
 }

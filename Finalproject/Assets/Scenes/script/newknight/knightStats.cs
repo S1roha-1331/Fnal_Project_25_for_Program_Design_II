@@ -18,6 +18,7 @@ public class knightStats : MonoBehaviour, IDamageable
     public int gainExp = 0;
     private knightAnimator animator;
     public GameObject expBall;
+    [SerializeField] private GameObject damagePopupPrefab;
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +43,7 @@ public class knightStats : MonoBehaviour, IDamageable
     public void takeDamage(float amount)
     {
         animator.triggerHurt();
+        showDamagePopup(amount);
         currentHealth -=amount;
         if(currentHealth <= 0)
         {
@@ -49,6 +51,12 @@ public class knightStats : MonoBehaviour, IDamageable
             animator.setDead(isDead);
             StartCoroutine(DelayDie());
         }
+    }
+    public void showDamagePopup(float amount)
+    {
+        Vector3 spawnPos = transform.position + new Vector3(0, 1f, 0);
+        GameObject popupGO = Instantiate(damagePopupPrefab, spawnPos, Quaternion.identity);
+        popupGO.GetComponent<DamagePopup>().Setup(amount);
     }
 
 }

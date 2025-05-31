@@ -102,6 +102,7 @@ MonoBehaviour:
   isDead: 0
   gainExp: 5
   expBall: {fileID: 5626845016863779357, guid: a8c46c0b6ce385049bf3adfebf92829e, type: 3}
+  damagePopupPrefab: {fileID: 4868377145938654378, guid: f903089577bf0214ca22d4fe906f50d2, type: 3}
 --- !u!61 &1043218141817924484
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -606,4 +607,3 @@ MonoBehaviour:
   isAttack: 0
   knightStats: {fileID: 3937362350127626756}
   knightAnimator: {fileID: 5972391698710718561}
-  playerHealth: {fileID: 5745532913879838175, guid: a4f2d503761a97844a20ac29c63a5876, type: 3}
