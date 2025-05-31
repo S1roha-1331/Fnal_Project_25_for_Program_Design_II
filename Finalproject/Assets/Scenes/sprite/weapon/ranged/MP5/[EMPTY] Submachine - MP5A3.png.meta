@@ -91,7 +91,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -163,6 +163,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -170,12 +196,12 @@ TextureImporter:
       name: '[EMPTY] Submachine - MP5A3_0'
       rect:
         serializedVersion: 2
-        x: 2
-        y: 17
-        width: 59
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -192,12 +218,12 @@ TextureImporter:
       name: '[EMPTY] Submachine - MP5A3_1'
       rect:
         serializedVersion: 2
-        x: 82
-        y: 18
-        width: 59
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 80
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -214,12 +240,12 @@ TextureImporter:
       name: '[EMPTY] Submachine - MP5A3_2'
       rect:
         serializedVersion: 2
-        x: 162
-        y: 17
-        width: 59
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 160
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -236,12 +262,12 @@ TextureImporter:
       name: '[EMPTY] Submachine - MP5A3_3'
       rect:
         serializedVersion: 2
-        x: 242
-        y: 24
-        width: 59
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 240
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -258,12 +284,12 @@ TextureImporter:
       name: '[EMPTY] Submachine - MP5A3_4'
       rect:
         serializedVersion: 2
-        x: 268
-        y: 14
-        width: 11
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 320
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -280,12 +306,12 @@ TextureImporter:
       name: '[EMPTY] Submachine - MP5A3_5'
       rect:
         serializedVersion: 2
-        x: 322
-        y: 24
-        width: 59
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 400
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -302,12 +328,12 @@ TextureImporter:
       name: '[EMPTY] Submachine - MP5A3_6'
       rect:
         serializedVersion: 2
-        x: 348
-        y: 11
-        width: 11
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 480
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -324,12 +350,12 @@ TextureImporter:
       name: '[EMPTY] Submachine - MP5A3_7'
       rect:
         serializedVersion: 2
-        x: 402
-        y: 24
-        width: 59
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 560
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -346,12 +372,12 @@ TextureImporter:
       name: '[EMPTY] Submachine - MP5A3_8'
       rect:
         serializedVersion: 2
-        x: 428
-        y: 8
-        width: 9
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 640
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -368,12 +394,12 @@ TextureImporter:
       name: '[EMPTY] Submachine - MP5A3_9'
       rect:
         serializedVersion: 2
-        x: 482
-        y: 24
-        width: 59
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 720
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -390,12 +416,12 @@ TextureImporter:
       name: '[EMPTY] Submachine - MP5A3_10'
       rect:
         serializedVersion: 2
-        x: 562
-        y: 24
-        width: 59
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 800
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -412,12 +438,12 @@ TextureImporter:
       name: '[EMPTY] Submachine - MP5A3_11'
       rect:
         serializedVersion: 2
-        x: 642
-        y: 24
-        width: 59
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 880
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -430,165 +456,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: '[EMPTY] Submachine - MP5A3_12'
-      rect:
-        serializedVersion: 2
-        x: 722
-        y: 24
-        width: 59
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 514609551da39b0f0800000000000000
-      internalID: -1100783963157273579
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[EMPTY] Submachine - MP5A3_13'
-      rect:
-        serializedVersion: 2
-        x: 802
-        y: 0
-        width: 59
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a8d50234c349e32e0800000000000000
-      internalID: -2144113386036634230
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[EMPTY] Submachine - MP5A3_14'
-      rect:
-        serializedVersion: 2
-        x: 882
-        y: 24
-        width: 59
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f5e129b77f138c130800000000000000
-      internalID: 3587172042200456799
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[EMPTY] Submachine - MP5A3_15'
-      rect:
-        serializedVersion: 2
-        x: 508
-        y: 5
-        width: 9
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9014d43d4d62f6580800000000000000
-      internalID: -8831797648730275575
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[EMPTY] Submachine - MP5A3_16'
-      rect:
-        serializedVersion: 2
-        x: 588
-        y: 2
-        width: 8
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 48f537a895fc48f80800000000000000
-      internalID: -8105125445878194300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[EMPTY] Submachine - MP5A3_17'
-      rect:
-        serializedVersion: 2
-        x: 667
-        y: 0
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4f341a28147c08650800000000000000
-      internalID: 6233200968459174900
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[EMPTY] Submachine - MP5A3_18'
-      rect:
-        serializedVersion: 2
-        x: 744
-        y: 0
-        width: 14
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 921064f612e3a83c0800000000000000
-      internalID: -4356601376205831895
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 15288e3606f5db14093b12bcf482fd03
     internalID: 0
     vertices: []
     indices: 
@@ -596,19 +468,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":80.0,"y":48.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.5},"autoSlicingMethod":0,"spriteAlignment":4,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       '[EMPTY] Submachine - MP5A3_0': 7539584865947761867
       '[EMPTY] Submachine - MP5A3_1': 8957198182622948088
       '[EMPTY] Submachine - MP5A3_10': 538199118661503454
       '[EMPTY] Submachine - MP5A3_11': 1224505926756724012
-      '[EMPTY] Submachine - MP5A3_12': -1100783963157273579
-      '[EMPTY] Submachine - MP5A3_13': -2144113386036634230
-      '[EMPTY] Submachine - MP5A3_14': 3587172042200456799
-      '[EMPTY] Submachine - MP5A3_15': -8831797648730275575
-      '[EMPTY] Submachine - MP5A3_16': -8105125445878194300
-      '[EMPTY] Submachine - MP5A3_17': 6233200968459174900
-      '[EMPTY] Submachine - MP5A3_18': -4356601376205831895
       '[EMPTY] Submachine - MP5A3_2': -6805539079791442972
       '[EMPTY] Submachine - MP5A3_3': -594177306091642448
       '[EMPTY] Submachine - MP5A3_4': -475288581447243535

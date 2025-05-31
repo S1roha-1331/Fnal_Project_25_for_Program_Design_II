@@ -1,3 +1,4 @@
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class weaponControl: MonoBehaviour
@@ -10,10 +11,17 @@ public class weaponControl: MonoBehaviour
     public Transform player;
 
     //weapon radius and theta
-    private float radius = 1.5f;
+    private float radius = 2f;
     public float twopi = 360f;
 
-
+    public bool isClockwise()
+    {
+        float z = transform.rotation.eulerAngles.z;
+        if (z >= 90f && z < 270f)
+            return false;
+        else
+            return true;
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -23,6 +31,8 @@ public class weaponControl: MonoBehaviour
         animator = GetComponentInChildren<weaponAnimator>();
         player = GameObject.FindWithTag("Player").transform;
         indicator = GameObject.FindWithTag("Player").GetComponentInChildren<AttackIndicator>();
+
+        
     }
 
     // Update is called once per frame
@@ -34,13 +44,20 @@ public class weaponControl: MonoBehaviour
         stat.weaponCDUpdate();
 
         //set weapon direct by player indicator
-        Vector2 dir = indicator.player.GetAttackDirection();
+        Vector3 dir = indicator.player.GetAttackDirection();
 
-        if(dir != Vector2.zero)
+        if(dir != Vector3.zero)
         {
-            transform.position = (Vector2)player.position + (dir.normalized * radius);
-            float angle = (stat.weaponTag*(twopi/6) + Mathf.Atan2(dir.y, dir.x)) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Euler(0, 0, angle);
+
+            //Vector2 right = Vector2.right;
+            float angleOrder = (stat.weaponTag - 1) * (twopi / stat.order.latestWeapon);
+            angleOrder *= -1;
+            var rotate = Quaternion.Euler(0, 0, angleOrder) * dir;
+            transform.position = player.position + rotate.normalized * radius;// * dir.normalized
+            float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+            transform.localRotation = Quaternion.Euler(0, 0, angle);
         }
+
+        
     }
 }
