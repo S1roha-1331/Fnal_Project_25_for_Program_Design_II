@@ -51,9 +51,7 @@ public class weaponControl: MonoBehaviour
 
             //Vector2 right = Vector2.right;
             float angleOrder = (stat.weaponTag - 1) * (twopi / stat.order.latestWeapon);
-            Debug.Log($"{angleOrder}");
-            if (range.wieldClockwise)
-                angleOrder *= -1;
+            angleOrder *= -1;
             var rotate = Quaternion.Euler(0, 0, angleOrder) * dir;
             transform.position = player.position + rotate.normalized * radius;// * dir.normalized
             float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
