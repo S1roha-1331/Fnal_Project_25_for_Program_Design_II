@@ -5,6 +5,8 @@ public class attackingHitbox : MonoBehaviour
     public weaponStat stat;
     public weaponHitbox hitStat;
 
+    
+    
     void OnTriggerStay2D(Collider2D other)
     {
         if (hitStat.isAttacking && stat.attackCooldown <= 0f)

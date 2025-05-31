@@ -4,6 +4,7 @@ using UnityEngine;
 public class weaponAnimator : MonoBehaviour
 {
     public weaponHitbox hitbox;
+    public weaponStat stat;
     public SpriteRenderer weapon;
 
     //set the visibility of the weapon 
@@ -24,8 +25,9 @@ public class weaponAnimator : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        weapon = GetComponentInParent<SpriteRenderer>();
-        hitbox = weapon.GetComponentInChildren<weaponHitbox>();
+        stat = GetComponentInParent<weaponStat>();
+        weapon = GetComponent<SpriteRenderer>();
+        hitbox = stat.GetComponentInChildren<weaponHitbox>();
     }
 
     // Update is called once per frame
