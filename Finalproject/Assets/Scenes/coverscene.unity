@@ -17790,7 +17790,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 507e31fc696b5464289703d6610d77fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effectPrefab: {fileID: 4422579192631445866, guid: acc079ca87e74f4469cb2811493996ac, type: 3}
+  effectPrefab: {fileID: 8347939173782130026, guid: df2c70bb118f63a42a616d73a40361ef, type: 3}
 --- !u!4 &1802910266
 Transform:
   m_ObjectHideFlags: 0
