@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -146,265 +146,265 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_0'
+      name: FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 17
-        width: 59
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 13286bd59cfb254f0800000000000000
-      internalID: -841399308783287759
+      spriteID: 5d242c7af16cdff4f8947aeb24acd6c4
+      internalID: 1961816295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_1'
+      name: FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_1
       rect:
         serializedVersion: 2
-        x: 82
-        y: 17
-        width: 59
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 80
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 691ff66c488a75b80800000000000000
-      internalID: -8406064891245366890
+      spriteID: b06ccac53b5e68e44b465c51fc821ce2
+      internalID: 809499415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_2'
+      name: FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_2
       rect:
         serializedVersion: 2
-        x: 161
-        y: 17
-        width: 65
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 160
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e8e5d18e26bdea0c0800000000000000
-      internalID: -4562468154632216946
+      spriteID: 96dd683ae3456774aab68f051abea1e7
+      internalID: -2090414560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_3'
+      name: FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_3
       rect:
         serializedVersion: 2
-        x: 241
-        y: 17
-        width: 69
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 240
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a0df354bc9afc46d0800000000000000
-      internalID: -3004751300415718134
+      spriteID: db797d1261886a948a77ce6dcf3f8bff
+      internalID: -2046134381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_4'
+      name: FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_4
       rect:
         serializedVersion: 2
-        x: 321
-        y: 17
-        width: 68
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 320
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0c669502130881c10800000000000000
-      internalID: 2024508980987520704
+      spriteID: e99cd2bca7d4e534e9f6e9cc970a248b
+      internalID: -366777901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_5'
+      name: FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_5
       rect:
         serializedVersion: 2
-        x: 401
-        y: 17
-        width: 59
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 400
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c4310843e1a401880800000000000000
-      internalID: -8642326191333698740
+      spriteID: fa990886d201b7045b70942cea232c05
+      internalID: -725490615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_6'
+      name: FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_6
       rect:
         serializedVersion: 2
-        x: 482
-        y: 17
-        width: 59
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 480
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d5963e859e7f80a20800000000000000
-      internalID: 3028943330997397853
+      spriteID: a5ac19b56de502f4ca75542ff06b6dab
+      internalID: 71774199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_7'
+      name: FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_7
       rect:
         serializedVersion: 2
-        x: 562
-        y: 17
-        width: 59
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 560
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4e7f2fdaae7ccbb10800000000000000
-      internalID: 1998692145400313828
+      spriteID: cd907be0ad358ba4fb604156000e2717
+      internalID: -816152755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_8'
+      name: FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_8
       rect:
         serializedVersion: 2
-        x: 642
-        y: 17
-        width: 59
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 640
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 573135360c5f80cf0800000000000000
-      internalID: -285708369689111691
+      spriteID: a9be9a55aea633a4db641b4e37cc4493
+      internalID: 1806244818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_9'
+      name: FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_9
       rect:
         serializedVersion: 2
-        x: 722
-        y: 17
-        width: 59
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 720
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7a59bcf15ef8b6a50800000000000000
-      internalID: 6515459500165272999
+      spriteID: 486084c86c165864b89e68f0295d6466
+      internalID: 799729503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_10'
+      name: FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_10
       rect:
         serializedVersion: 2
-        x: 802
-        y: 13
-        width: 59
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 800
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d95bc33fe06ff46e0800000000000000
-      internalID: -1850990377755167331
+      spriteID: 88fcb9ee9839e114ba3d80238748f2f2
+      internalID: -1452230026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_11'
+      name: FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_11
       rect:
         serializedVersion: 2
-        x: 882
-        y: 17
-        width: 59
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 880
+        y: 0
+        width: 80
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 85aa45a0c05460190800000000000000
-      internalID: -7996628170334492072
+      spriteID: 5e0c5e4f9a66fcc489161c44cbd4f7ee
+      internalID: -290129396
       vertices: []
       indices: 
       edges: []
@@ -413,7 +413,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2c0171dd0466c014bb75b7373121a4c8
     internalID: 0
     vertices: []
     indices: 
@@ -421,20 +421,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":80.0,"y":48.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.5},"autoSlicingMethod":0,"spriteAlignment":4,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_0': -841399308783287759
-      '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_1': -8406064891245366890
-      '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_10': -1850990377755167331
-      '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_11': -7996628170334492072
-      '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_2': -4562468154632216946
-      '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_3': -3004751300415718134
-      '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_4': 2024508980987520704
-      '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_5': -8642326191333698740
-      '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_6': 3028943330997397853
-      '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_7': 1998692145400313828
-      '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_8': -285708369689111691
-      '[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_9': 6515459500165272999
+      FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_0: 1961816295
+      FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_1: 809499415
+      FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_10: -1452230026
+      FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_11: -290129396
+      FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_2: -2090414560
+      FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_3: -2046134381
+      FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_4: -366777901
+      FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_5: -725490615
+      FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_6: 71774199
+      FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_7: -816152755
+      FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_8: 1806244818
+      FA[SHOOT WITH CASING AND MUZZLE FLASH] FULL AUTO Submachine - MP5A3_9: 799729503
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

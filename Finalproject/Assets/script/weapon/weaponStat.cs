@@ -14,7 +14,7 @@ public class weaponStat : MonoBehaviour
     [Header("Weapon ID")]
     public int weaponID = -1;
     public int weaponLevel = 0;
-    public int weaponTag = -1;//determine the order of weapon in player's stock
+    public int weaponTag= -1;//determine the order of weapon in player's stock
     public WeaponGenre weaponGenre = WeaponGenre.notdefined;
     [Header("Weapon Dmg")]
     public float weaponDamage = 0f;
@@ -30,6 +30,9 @@ public class weaponStat : MonoBehaviour
     public float maxDurability = 50f;
     public float downgradePerhit = 5f;
     public bool isbroken = false;
+    [Header("Weapon Range")]
+    public float weaponRange = 0f;
+    public float defaultRange = 0.5f;
 
     [Header("")]
     //will use these variable if we have time :D
@@ -43,13 +46,13 @@ public class weaponStat : MonoBehaviour
     //determine if this is a new extra weapon
     public bool isnewWeapon()
     {
-        if(weaponTag == order.latestWeapon && weaponTag >= 0)
+        if(weaponTag >= 0)//weaponTag == order.latestWeapon && 
         {
             return false;
         }
         else
         {
-            weaponTag = (++order.latestWeapon);
+            weaponTag = ++order.latestWeapon;
             return true;
         }
     }

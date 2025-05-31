@@ -490,4 +490,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   latestWeapon: 0
-  weaponLimit: 5
+  weaponLimit: 6
