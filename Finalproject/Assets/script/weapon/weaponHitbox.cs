@@ -8,22 +8,50 @@ public class weaponHitbox : MonoBehaviour
     public float defaultTimer = 1f;
     public float rangeTimer = 1f;
 
+    public float rangedRange = 2f;
+
     public float wieldTimer = 0f;
+    public bool wieldClockwise = true;
 
     public weaponStat stat;
     public weaponControl control;
     public weaponAnimator visual;
+    public attackingHitbox attack;
 
     public Collider2D weaponCollider;
-    public Collider2D weaponRange;
+    public CircleCollider2D weaponRange;
     //public GameObject attackHitbox;
     public GameObject attackRange;
-
 
     public Transform player;
     public Transform hitbox;
     public Transform visualTransform;
+    //public Transform parent;
+    public Transform enemy;
 
+    public GameObject bulletPrefab;
+
+    //redirect the direction of ranged weapon(or melee weapon)
+    void rangedRedirect()
+    {
+        Vector3 turn = new Vector3(0f, 0f, 0f);
+        if (!wieldClockwise)
+            turn.x = control.twopi / 2;
+        visualTransform.localRotation = Quaternion.Euler(turn);
+    }
+
+    void meleeWield()
+    {
+        if (isAttacking)
+        {
+            wieldCDUpdate();
+            wieldWeapon();
+        }
+        else
+        {
+            wieldTimer = 0f;
+        }
+    }
     void wieldCDUpdate()
     {
         if (wieldTimer < 1f)
@@ -31,11 +59,14 @@ public class weaponHitbox : MonoBehaviour
         else
             wieldTimer = 0f;
     }
-    public void wieldWeapon()
+    void wieldWeapon()
     {
         float angle = control.twopi * wieldTimer / 4;
-        transform.rotation = Quaternion.Euler(0f, 0f, -angle);
-        visualTransform.rotation = Quaternion.Euler(0f, 0f, -angle);
+        Vector3 turn = new Vector3(0f, 0f, -angle);
+        if (!wieldClockwise) 
+            turn.x = control.twopi / 2;
+        transform.localRotation = Quaternion.Euler(turn);
+        visualTransform.localRotation = Quaternion.Euler(turn);
     }
 
     //have no effect now
@@ -70,10 +101,16 @@ public class weaponHitbox : MonoBehaviour
         attackRange.SetActive(!stat.isbroken);
     }
 
-    //redirect the direction of ranged weapon(or melee weapon)
-    public void weaponRedirect()
+    public void bulletEvent()
     {
-
+        if (isAttacking && stat.attackCooldown <= 0f)
+            bulletGenerate();
+    }
+    public void bulletGenerate()
+    {
+        Instantiate(bulletPrefab, transform.position, Quaternion.identity, transform);
+        stat.attackCooldown = stat.defaultCooldown;
+        stat.weaponDurability -= stat.downgradePerhit;
     }
 
     //determine if there is any enemy in the attack range
@@ -96,27 +133,36 @@ public class weaponHitbox : MonoBehaviour
         stat = GetComponentInParent<weaponStat>();
         control = GetComponentInParent<weaponControl>();
         visual = control.GetComponentInChildren<weaponAnimator>();
+        attack = GetComponentInChildren<attackingHitbox>();
+
         attackRange = GetComponent<GameObject>();
         //attackHitbox = GetComponentInChildren<>();
-        weaponRange = GetComponent<Collider2D>();
-        weaponCollider = GetComponentInChildren<Collider2D>();
+        weaponRange = GetComponent<CircleCollider2D>();
+        weaponCollider = attack.GetComponent<Collider2D>();
         player = GameObject.FindWithTag("Player").transform;
         hitbox = weaponCollider.GetComponent<Transform>();
         visualTransform = visual.GetComponent<Transform>();
+
+        if (stat.weaponGenre == WeaponGenre.ranged)
+        {
+            weaponRange.radius = rangedRange;
+            weaponCollider.enabled = false;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (stat.weaponGenre == WeaponGenre.melee)
+            meleeWield();
+        else if(stat.weaponGenre == WeaponGenre.ranged)
+        {
+            rangedRedirect();
+            bulletEvent();
+        }
+        wieldClockwise = control.isClockwise();
         rangeTimer -= Time.deltaTime;
-        if (isAttacking)
-        {
-            wieldCDUpdate();
-            wieldWeapon();
-        }
-        else
-        {
-            wieldTimer = 0f;
-        }
+
+        
     }
 }

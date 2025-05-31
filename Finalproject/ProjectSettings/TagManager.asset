@@ -6,8 +6,8 @@ TagManager:
   tags:
   - Wall
   - Enemy
-  - starspawnertag
   - Weapon
+  - starspawnertag
   layers:
   - Default
   - TransparentFX
@@ -60,8 +60,14 @@ TagManager:
   - name: "\u7B2C\u4E8C\u5C64\u88DD\u98FE\u54C1"
     uniqueID: 3461839803
     locked: 0
-  - name: trigger
-    uniqueID: 2041981253
+  - name: mask
+    uniqueID: 586659543
+    locked: 0
+  - name: ui
+    uniqueID: 3788594603
+    locked: 0
+  - name: New Layer 8
+    uniqueID: 2212118185
     locked: 0
   m_RenderingLayers:
   - Default
