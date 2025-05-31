@@ -22,7 +22,7 @@ public class star : MonoBehaviour
         timer += Time.deltaTime;
         if(timer > 20)
         {   
-            starspawner.GetComponent<StarSpawner>().count--;
+         
             StartCoroutine(StopAndDestroyEffect());
         
           
@@ -41,8 +41,9 @@ public class star : MonoBehaviour
             yield return new WaitForSeconds(maxLifetime);
         }
 
-     
-        Destroy(gameObject);
+        starspawner.GetComponent<StarSpawner>().count--;
         Destroy(effect);
+        Destroy(gameObject);
+        
     }
 }

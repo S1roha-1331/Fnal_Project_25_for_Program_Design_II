@@ -136,6 +136,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -372,7 +398,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      '[SHOOT WITH MUZZLE FLASH] Thick Bazooka - M20_0': -6523327979174796376
+      '[SHOOT WITH MUZZLE FLASH] Thick Bazooka - M20_1': 5787553596378252846
+      '[SHOOT WITH MUZZLE FLASH] Thick Bazooka - M20_2': -600267935437193646
+      '[SHOOT WITH MUZZLE FLASH] Thick Bazooka - M20_3': -7443396183923808007
+      '[SHOOT WITH MUZZLE FLASH] Thick Bazooka - M20_4': 3261332352006391535
+      '[SHOOT WITH MUZZLE FLASH] Thick Bazooka - M20_5': -7236939087274308573
+      '[SHOOT WITH MUZZLE FLASH] Thick Bazooka - M20_6': 8074196105932386913
+      '[SHOOT WITH MUZZLE FLASH] Thick Bazooka - M20_7': -6641308997778407457
+      '[SHOOT WITH MUZZLE FLASH] Thick Bazooka - M20_8': 655161788850603004
+      '[SHOOT WITH MUZZLE FLASH] Thick Bazooka - M20_9': -7350109973149136094
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

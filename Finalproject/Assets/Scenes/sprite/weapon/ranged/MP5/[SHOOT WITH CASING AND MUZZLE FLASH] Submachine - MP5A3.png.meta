@@ -142,6 +142,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -422,7 +448,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      '[SHOOT WITH CASING AND MUZZLE FLASH] Submachine - MP5A3_0': -6256163149579557039
+      '[SHOOT WITH CASING AND MUZZLE FLASH] Submachine - MP5A3_1': 1436868727485413978
+      '[SHOOT WITH CASING AND MUZZLE FLASH] Submachine - MP5A3_10': -2029666309450306932
+      '[SHOOT WITH CASING AND MUZZLE FLASH] Submachine - MP5A3_11': -5288248772064272271
+      '[SHOOT WITH CASING AND MUZZLE FLASH] Submachine - MP5A3_2': 5587760268500082218
+      '[SHOOT WITH CASING AND MUZZLE FLASH] Submachine - MP5A3_3': 9216573000431897302
+      '[SHOOT WITH CASING AND MUZZLE FLASH] Submachine - MP5A3_4': -4548120473559767739
+      '[SHOOT WITH CASING AND MUZZLE FLASH] Submachine - MP5A3_5': -5023384363903380827
+      '[SHOOT WITH CASING AND MUZZLE FLASH] Submachine - MP5A3_6': -3770659093812066285
+      '[SHOOT WITH CASING AND MUZZLE FLASH] Submachine - MP5A3_7': -3272788460918533799
+      '[SHOOT WITH CASING AND MUZZLE FLASH] Submachine - MP5A3_8': 3789433114906553568
+      '[SHOOT WITH CASING AND MUZZLE FLASH] Submachine - MP5A3_9': -2841632748670702112
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 94f6153d5761192409c6e1a02e07e006
+guid: 22c4abc5e1265314b86d7a20bf9fc982
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1832745248622799106
-    second: vecteezy_white-star-3d-inflated-cute-bubble-glossy-glass-for-decoration_49688576_0
+      213: -2943081399758422535
+    second: pixil-frame-0 (29) (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,30 +122,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: vecteezy_white-star-3d-inflated-cute-bubble-glossy-glass-for-decoration_49688576_0
+      name: pixil-frame-0 (29) (1)_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 4467
-        height: 4556
+        x: 647
+        y: 863
+        width: 3890
+        height: 3818
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef69d0c18e7c096e0800000000000000
-      internalID: -1832745248622799106
+      spriteID: 9fdf65e5f031827d0800000000000000
+      internalID: -2943081399758422535
       vertices: []
       indices: 
       edges: []
@@ -173,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      vecteezy_white-star-3d-inflated-cute-bubble-glossy-glass-for-decoration_49688576_0: -1832745248622799106
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
