@@ -1,79 +1,46 @@
 fileFormatVersion: 2
-guid: 90837ef945a865240a7dea9c392e4336
+guid: 629ade5a3490ede4d926cedce12f67e1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4558511345572276490
-    second: '[RELOAD] AK 47_0'
+      213: 2076484158948364555
+    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_0'
   - first:
-      213: -615825839608233384
-    second: '[RELOAD] AK 47_1'
+      213: 8609917954671185271
+    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_1'
   - first:
-      213: -2146963323068132558
-    second: '[RELOAD] AK 47_2'
+      213: 3539913276283398762
+    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_2'
   - first:
-      213: 6224745659479527108
-    second: '[RELOAD] AK 47_3'
+      213: 6476433126301839123
+    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_3'
   - first:
-      213: 5295368658505191243
-    second: '[RELOAD] AK 47_4'
+      213: 7152439805721674080
+    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_4'
   - first:
-      213: -5328922087429211439
-    second: '[RELOAD] AK 47_5'
+      213: -7482869091171683634
+    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_5'
   - first:
-      213: -9115035878193089416
-    second: '[RELOAD] AK 47_6'
+      213: 105568355869048755
+    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_6'
   - first:
-      213: 3390971340231384726
-    second: '[RELOAD] AK 47_7'
+      213: -7437865618126208962
+    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_7'
   - first:
-      213: 8955971145206507560
-    second: '[RELOAD] AK 47_8'
+      213: -6551519701113146601
+    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_8'
   - first:
-      213: 6999420435369834454
-    second: '[RELOAD] AK 47_9'
+      213: 2388726529517815100
+    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_9'
   - first:
-      213: 3473954345787220128
-    second: '[RELOAD] AK 47_10'
+      213: -1846975005780803765
+    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_10'
   - first:
-      213: -4894778450810423285
-    second: '[RELOAD] AK 47_11'
+      213: 3886504025738521309
+    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_11'
   - first:
-      213: -5863453572472165835
-    second: '[RELOAD] AK 47_12'
-  - first:
-      213: -7301780909906478161
-    second: '[RELOAD] AK 47_13'
-  - first:
-      213: -3484261131037446185
-    second: '[RELOAD] AK 47_14'
-  - first:
-      213: 846039637762169407
-    second: '[RELOAD] AK 47_15'
-  - first:
-      213: -5763243964642624725
-    second: '[RELOAD] AK 47_16'
-  - first:
-      213: -2642736205081903602
-    second: '[RELOAD] AK 47_17'
-  - first:
-      213: -7650546218433511027
-    second: '[RELOAD] AK 47_18'
-  - first:
-      213: 3772962528304603309
-    second: '[RELOAD] AK 47_19'
-  - first:
-      213: 1824210583018259629
-    second: '[RELOAD] AK 47_20'
-  - first:
-      213: -4179310253121833595
-    second: '[RELOAD] AK 47_21'
-  - first:
-      213: 1595985033985447170
-    second: '[RELOAD] AK 47_22'
-  - first:
-      213: 4783294448420272236
-    second: '[RELOAD] AK 47_23'
+      213: -2079108202029205088
+    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_12'
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -182,7 +149,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: '[RELOAD] AK 47_0'
+      name: Fire_AK47_0
       rect:
         serializedVersion: 2
         x: 0
@@ -195,16 +162,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a096c61bae5134f30800000000000000
-      internalID: 4558511345572276490
+      spriteID: ceca4cbabd4b0eb4e9a86d8fdbf7c462
+      internalID: -2081920612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[RELOAD] AK 47_1'
+      name: Fire_AK47_1
       rect:
         serializedVersion: 2
         x: 96
@@ -217,16 +184,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 85205a269a52477f0800000000000000
-      internalID: -615825839608233384
+      spriteID: c6d1dc47e66900849bf4f4a08cee2407
+      internalID: -414322561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[RELOAD] AK 47_2'
+      name: Fire_AK47_2
       rect:
         serializedVersion: 2
         x: 192
@@ -239,16 +206,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2335bb69b347432e0800000000000000
-      internalID: -2146963323068132558
+      spriteID: b4c1191db00b88243aa057c1520793ac
+      internalID: 17945678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[RELOAD] AK 47_3'
+      name: Fire_AK47_3
       rect:
         serializedVersion: 2
         x: 288
@@ -261,16 +228,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4ce8e6a723db26650800000000000000
-      internalID: 6224745659479527108
+      spriteID: ea530e49f57dee846a121f10c5085a30
+      internalID: -1684918421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[RELOAD] AK 47_4'
+      name: Fire_AK47_4
       rect:
         serializedVersion: 2
         x: 384
@@ -283,16 +250,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b4f40f42dbdec7940800000000000000
-      internalID: 5295368658505191243
+      spriteID: b2f7e79f35c2ee7428c35acafe36f810
+      internalID: 1138384921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[RELOAD] AK 47_5'
+      name: Fire_AK47_5
       rect:
         serializedVersion: 2
         x: 480
@@ -305,16 +272,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1da7c07689ddb06b0800000000000000
-      internalID: -5328922087429211439
+      spriteID: 7aaca687029c69849b6eeedb9a750c23
+      internalID: -1820337337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[RELOAD] AK 47_6'
+      name: Fire_AK47_6
       rect:
         serializedVersion: 2
         x: 576
@@ -327,16 +294,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8743c5d8923e08180800000000000000
-      internalID: -9115035878193089416
+      spriteID: 26dddef1cf023864ba4e941d92f7fb20
+      internalID: 114680584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[RELOAD] AK 47_7'
+      name: Fire_AK47_7
       rect:
         serializedVersion: 2
         x: 672
@@ -349,16 +316,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 69e9502c7762f0f20800000000000000
-      internalID: 3390971340231384726
+      spriteID: 1e7b5791b548cc64a9a6cc68b0cb7dc5
+      internalID: -471846561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[RELOAD] AK 47_8'
+      name: Fire_AK47_8
       rect:
         serializedVersion: 2
         x: 768
@@ -371,16 +338,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 828aea84e400a4c70800000000000000
-      internalID: 8955971145206507560
+      spriteID: f3a25da636d6e17459688e4da76e1545
+      internalID: 1289202619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[RELOAD] AK 47_9'
+      name: Fire_AK47_9
       rect:
         serializedVersion: 2
         x: 864
@@ -393,16 +360,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6d734db2dcfe22160800000000000000
-      internalID: 6999420435369834454
+      spriteID: 13b7850ab013da3448e3ad7456b3695d
+      internalID: -872126761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[RELOAD] AK 47_10'
+      name: Fire_AK47_10
       rect:
         serializedVersion: 2
         x: 960
@@ -415,16 +382,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0a0629a5217f53030800000000000000
-      internalID: 3473954345787220128
+      spriteID: 1577b64a61d6a3745a092f32dab2c8bd
+      internalID: -1948966257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[RELOAD] AK 47_11'
+      name: Fire_AK47_11
       rect:
         serializedVersion: 2
         x: 1056
@@ -437,98 +404,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b083531cee0421cb0800000000000000
-      internalID: -4894778450810423285
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[RELOAD] AK 47_12'
-      rect:
-        serializedVersion: 2
-        x: 1152
-        y: 0
-        width: 96
-        height: 48
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 53a2dcfaa04d0aea0800000000000000
-      internalID: -5863453572472165835
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[RELOAD] AK 47_13'
-      rect:
-        serializedVersion: 2
-        x: 1248
-        y: 0
-        width: 96
-        height: 48
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fabbb4de2fcdaaa90800000000000000
-      internalID: -7301780909906478161
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[RELOAD] AK 47_14'
-      rect:
-        serializedVersion: 2
-        x: 1344
-        y: 0
-        width: 96
-        height: 48
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7dfefc336fa65afc0800000000000000
-      internalID: -3484261131037446185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[RELOAD] AK 47_15'
-      rect:
-        serializedVersion: 2
-        x: 1440
-        y: 0
-        width: 96
-        height: 48
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f3ad6ba619cbdbb00800000000000000
-      internalID: 846039637762169407
+      spriteID: 9b58d42bcaf7dbb48bd44886f9ebf219
+      internalID: 2142582838
       vertices: []
       indices: 
       edges: []
@@ -537,7 +416,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 60bbf2c6cb508b64d82239e062bb1a13
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -549,22 +428,18 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":96.0,"y":48.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.5},"autoSlicingMethod":0,"spriteAlignment":4,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      '[RELOAD] AK 47_0': 4558511345572276490
-      '[RELOAD] AK 47_1': -615825839608233384
-      '[RELOAD] AK 47_10': 3473954345787220128
-      '[RELOAD] AK 47_11': -4894778450810423285
-      '[RELOAD] AK 47_12': -5863453572472165835
-      '[RELOAD] AK 47_13': -7301780909906478161
-      '[RELOAD] AK 47_14': -3484261131037446185
-      '[RELOAD] AK 47_15': 846039637762169407
-      '[RELOAD] AK 47_2': -2146963323068132558
-      '[RELOAD] AK 47_3': 6224745659479527108
-      '[RELOAD] AK 47_4': 5295368658505191243
-      '[RELOAD] AK 47_5': -5328922087429211439
-      '[RELOAD] AK 47_6': -9115035878193089416
-      '[RELOAD] AK 47_7': 3390971340231384726
-      '[RELOAD] AK 47_8': 8955971145206507560
-      '[RELOAD] AK 47_9': 6999420435369834454
+      Fire_AK47_0: -2081920612
+      Fire_AK47_1: -414322561
+      Fire_AK47_10: -1948966257
+      Fire_AK47_11: 2142582838
+      Fire_AK47_2: 17945678
+      Fire_AK47_3: -1684918421
+      Fire_AK47_4: 1138384921
+      Fire_AK47_5: -1820337337
+      Fire_AK47_6: 114680584
+      Fire_AK47_7: -471846561
+      Fire_AK47_8: 1289202619
+      Fire_AK47_9: -872126761
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

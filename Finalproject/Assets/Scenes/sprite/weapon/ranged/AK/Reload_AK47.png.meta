@@ -1,46 +1,79 @@
 fileFormatVersion: 2
-guid: 629ade5a3490ede4d926cedce12f67e1
+guid: 90837ef945a865240a7dea9c392e4336
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2076484158948364555
-    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_0'
+      213: 4558511345572276490
+    second: '[RELOAD] AK 47_0'
   - first:
-      213: 8609917954671185271
-    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_1'
+      213: -615825839608233384
+    second: '[RELOAD] AK 47_1'
   - first:
-      213: 3539913276283398762
-    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_2'
+      213: -2146963323068132558
+    second: '[RELOAD] AK 47_2'
   - first:
-      213: 6476433126301839123
-    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_3'
+      213: 6224745659479527108
+    second: '[RELOAD] AK 47_3'
   - first:
-      213: 7152439805721674080
-    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_4'
+      213: 5295368658505191243
+    second: '[RELOAD] AK 47_4'
   - first:
-      213: -7482869091171683634
-    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_5'
+      213: -5328922087429211439
+    second: '[RELOAD] AK 47_5'
   - first:
-      213: 105568355869048755
-    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_6'
+      213: -9115035878193089416
+    second: '[RELOAD] AK 47_6'
   - first:
-      213: -7437865618126208962
-    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_7'
+      213: 3390971340231384726
+    second: '[RELOAD] AK 47_7'
   - first:
-      213: -6551519701113146601
-    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_8'
+      213: 8955971145206507560
+    second: '[RELOAD] AK 47_8'
   - first:
-      213: 2388726529517815100
-    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_9'
+      213: 6999420435369834454
+    second: '[RELOAD] AK 47_9'
   - first:
-      213: -1846975005780803765
-    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_10'
+      213: 3473954345787220128
+    second: '[RELOAD] AK 47_10'
   - first:
-      213: 3886504025738521309
-    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_11'
+      213: -4894778450810423285
+    second: '[RELOAD] AK 47_11'
   - first:
-      213: -2079108202029205088
-    second: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_12'
+      213: -5863453572472165835
+    second: '[RELOAD] AK 47_12'
+  - first:
+      213: -7301780909906478161
+    second: '[RELOAD] AK 47_13'
+  - first:
+      213: -3484261131037446185
+    second: '[RELOAD] AK 47_14'
+  - first:
+      213: 846039637762169407
+    second: '[RELOAD] AK 47_15'
+  - first:
+      213: -5763243964642624725
+    second: '[RELOAD] AK 47_16'
+  - first:
+      213: -2642736205081903602
+    second: '[RELOAD] AK 47_17'
+  - first:
+      213: -7650546218433511027
+    second: '[RELOAD] AK 47_18'
+  - first:
+      213: 3772962528304603309
+    second: '[RELOAD] AK 47_19'
+  - first:
+      213: 1824210583018259629
+    second: '[RELOAD] AK 47_20'
+  - first:
+      213: -4179310253121833595
+    second: '[RELOAD] AK 47_21'
+  - first:
+      213: 1595985033985447170
+    second: '[RELOAD] AK 47_22'
+  - first:
+      213: 4783294448420272236
+    second: '[RELOAD] AK 47_23'
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -149,7 +182,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_0'
+      name: Reload_AK47_0
       rect:
         serializedVersion: 2
         x: 0
@@ -162,16 +195,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b01d7d3475721dc10800000000000000
-      internalID: 2076484158948364555
+      spriteID: c7786a53f3f99fd45a266b05d19c52b0
+      internalID: 1545495127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_1'
+      name: Reload_AK47_1
       rect:
         serializedVersion: 2
         x: 96
@@ -184,16 +217,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 77d0f6133c29c7770800000000000000
-      internalID: 8609917954671185271
+      spriteID: 8304320cf282a874db3f42e47928c2dc
+      internalID: -1855685975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_2'
+      name: Reload_AK47_2
       rect:
         serializedVersion: 2
         x: 192
@@ -206,16 +239,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a6aaf889e5c402130800000000000000
-      internalID: 3539913276283398762
+      spriteID: 64a7c2792df63814ebc5d55c78a941b9
+      internalID: 33578093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_3'
+      name: Reload_AK47_3
       rect:
         serializedVersion: 2
         x: 288
@@ -228,16 +261,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 31f2bc06d99e0e950800000000000000
-      internalID: 6476433126301839123
+      spriteID: 271d86637162b3346990cfc5a930657c
+      internalID: -832133255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_4'
+      name: Reload_AK47_4
       rect:
         serializedVersion: 2
         x: 384
@@ -250,16 +283,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0618769ab12924360800000000000000
-      internalID: 7152439805721674080
+      spriteID: 2dbc0bee751c8ef4889638eb223f7035
+      internalID: 496617279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_5'
+      name: Reload_AK47_5
       rect:
         serializedVersion: 2
         x: 480
@@ -272,16 +305,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ec236ff1532872890800000000000000
-      internalID: -7482869091171683634
+      spriteID: 0663832b5d404f84496ac23d09cca544
+      internalID: -1936010895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_6'
+      name: Reload_AK47_6
       rect:
         serializedVersion: 2
         x: 576
@@ -294,16 +327,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3bfb81f3cdd077100800000000000000
-      internalID: 105568355869048755
+      spriteID: 8f671fb7bd492f948b296dc4d0cd5c9c
+      internalID: -1914573218
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_7'
+      name: Reload_AK47_7
       rect:
         serializedVersion: 2
         x: 672
@@ -316,16 +349,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e300f78b0a467c890800000000000000
-      internalID: -7437865618126208962
+      spriteID: 0a8e4d9c829d98b4fbba5610204e4611
+      internalID: -388195479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_8'
+      name: Reload_AK47_8
       rect:
         serializedVersion: 2
         x: 768
@@ -338,16 +371,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7137d241b835415a0800000000000000
-      internalID: -6551519701113146601
+      spriteID: e6f661dc4461e9749aa1731a5121dd5d
+      internalID: 590477490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_9'
+      name: Reload_AK47_9
       rect:
         serializedVersion: 2
         x: 864
@@ -360,38 +393,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c3506716f16762120800000000000000
-      internalID: 2388726529517815100
+      spriteID: 68425f090c176e846897a120ac056415
+      internalID: -1256519494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_11'
-      rect:
-        serializedVersion: 2
-        x: 1056
-        y: 0
-        width: 96
-        height: 48
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dda2540e1d2afe530800000000000000
-      internalID: 3886504025738521309
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_10'
+      name: Reload_AK47_10
       rect:
         serializedVersion: 2
         x: 960
@@ -406,8 +417,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74dd9e9ffa09e7640aa234c2997b0108
-      internalID: -1846975005780803765
+      spriteID: 86d9093f523f9ac48b2732b451068102
+      internalID: -118534552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reload_AK47_11
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 96
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479e685d65473c9488cbf124a91b0bd5
+      internalID: 567821312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reload_AK47_12
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 96
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1122b6a2a38a0e4bb5c77ab4ec093f9
+      internalID: 1280810160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reload_AK47_13
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 0
+        width: 96
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06b7ab7c38aaa443a823c6a6d7bd474
+      internalID: 934889564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reload_AK47_14
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 96
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed80b5e830d15c04d91ff41deb6c980f
+      internalID: 1373340754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reload_AK47_15
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 96
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ea1f2ed3684f44a879d1c4fca2f128
+      internalID: 293507870
       vertices: []
       indices: 
       edges: []
@@ -416,7 +537,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 60bbf2c6cb508b64d82239e062bb1a13
     internalID: 0
     vertices: []
     indices: 
@@ -428,18 +549,22 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":96.0,"y":48.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.5},"autoSlicingMethod":0,"spriteAlignment":4,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_0': 2076484158948364555
-      '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_1': 8609917954671185271
-      '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_10': -1846975005780803765
-      '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_11': 3886504025738521309
-      '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_2': 3539913276283398762
-      '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_3': 6476433126301839123
-      '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_4': 7152439805721674080
-      '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_5': -7482869091171683634
-      '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_6': 105568355869048755
-      '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_7': -7437865618126208962
-      '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_8': -6551519701113146601
-      '[SHOOT WITH CASING AND MUZZLE FLASH] AK 47_9': 2388726529517815100
+      Reload_AK47_0: 1545495127
+      Reload_AK47_1: -1855685975
+      Reload_AK47_10: -118534552
+      Reload_AK47_11: 567821312
+      Reload_AK47_12: 1280810160
+      Reload_AK47_13: 934889564
+      Reload_AK47_14: 1373340754
+      Reload_AK47_15: 293507870
+      Reload_AK47_2: 33578093
+      Reload_AK47_3: -832133255
+      Reload_AK47_4: 496617279
+      Reload_AK47_5: -1936010895
+      Reload_AK47_6: -1914573218
+      Reload_AK47_7: -388195479
+      Reload_AK47_8: 590477490
+      Reload_AK47_9: -1256519494
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -101,6 +101,8 @@ MonoBehaviour:
   attackSpeed: 5
   isDead: 0
   gainExp: 5
+  maxCoins: 5
+  coins: {fileID: 5626845016863779357, guid: 20fd8fe349b17174191553d17a53d404, type: 3}
   expBall: {fileID: 5626845016863779357, guid: a8c46c0b6ce385049bf3adfebf92829e, type: 3}
   damagePopupPrefab: {fileID: 4868377145938654378, guid: f903089577bf0214ca22d4fe906f50d2, type: 3}
 --- !u!61 &1043218141817924484
