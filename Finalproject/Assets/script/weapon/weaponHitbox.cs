@@ -124,9 +124,10 @@ public class weaponHitbox : MonoBehaviour
         if (!wieldClockwise)
             prefabOffset.y *= -1f;
         var rotateOffset = parentRotate * prefabOffset ;
-        Vector3 bulletOffset = transform.position + rotateOffset * parent.localScale.x; 
+        Vector3 bulletOffset = transform.position + rotateOffset * parent.localScale.x;
         //var bulletRotate = Quaternion.Euler(bulletLocate);
         //Debug.Log($"{parent.localScale.x}, {Quaternion.identity.z}");
+        control.animator.fire();
         Instantiate(bulletPrefab, bulletOffset, parent.rotation);//search, transform
         stat.attackCooldown = stat.defaultCooldown;
         stat.weaponDurability -= stat.downgradePerhit;

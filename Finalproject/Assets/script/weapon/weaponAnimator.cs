@@ -6,6 +6,7 @@ public class weaponAnimator : MonoBehaviour
     public weaponHitbox hitbox;
     public weaponStat stat;
     public SpriteRenderer weapon;
+    public Animator animator;
 
     private float transparentParameter = .6f;
 
@@ -34,11 +35,35 @@ public class weaponAnimator : MonoBehaviour
         stat = GetComponentInParent<weaponStat>();
         weapon = GetComponent<SpriteRenderer>();
         hitbox = stat.GetComponentInChildren<weaponHitbox>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
         setVisibility();
+    }
+
+
+
+    public void fire()
+    {
+        animator.ResetTrigger("Fire");
+        animator.SetTrigger("Fire");
+    }
+    public void empty()
+    {
+        animator.ResetTrigger("Empty");
+        animator.SetTrigger("Empty");
+    }
+    public void reload()
+    {
+        animator.ResetTrigger("Reload");
+        animator.SetTrigger("Reload");
+    }
+    public void basic()
+    {
+        animator.ResetTrigger("Basic");
+        animator.SetTrigger("Basic");
     }
 }
