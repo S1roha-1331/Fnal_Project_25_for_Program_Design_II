@@ -19,7 +19,7 @@ public class loadcur : MonoBehaviour
             a.Falling();
 
             //StartCoroutine(FadeIn());
-          SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+      //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
         }
     }

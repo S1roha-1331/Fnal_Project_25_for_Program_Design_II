@@ -8,6 +8,10 @@ public class SceneSwitcher : MonoBehaviour
     public Image darkPanel;
 
     public float duration = 1f;
+    private void Update()
+    {
+        
+    }
     public void LoadNextScene()
     {
       
