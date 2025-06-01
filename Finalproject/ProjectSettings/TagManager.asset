@@ -10,6 +10,7 @@ TagManager:
   - starspawnertag
   - UI
   - WeaponRange
+  - loadingUI
   layers:
   - Default
   - TransparentFX
