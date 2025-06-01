@@ -15,6 +15,10 @@ public class weaponAnimator : MonoBehaviour
         if(hitbox.isAttacking && hitbox.wieldTimer < hitbox.defaultWieldTime)
         {
             weapon.material.SetColor("_Color", new Color(1.0f, 1.0f, 1.0f, 1.0f));
+            if(hitbox.wieldTimer == 0f)
+            {
+                weapon.material.SetColor("_Color", new Color(1.0f, 1.0f, 1.0f, 0.7f));
+            }
         }
         else
         {

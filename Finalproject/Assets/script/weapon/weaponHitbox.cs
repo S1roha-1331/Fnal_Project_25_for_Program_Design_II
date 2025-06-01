@@ -1,5 +1,6 @@
 using DG.Tweening;
 using NUnit.Framework.Internal.Execution;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class weaponHitbox : MonoBehaviour
@@ -30,7 +31,7 @@ public class weaponHitbox : MonoBehaviour
     public Transform player;
     public Transform hitbox;
     public Transform visualTransform;
-    //public Transform parent;
+    public Transform parent;
     public Transform enemy;
 
     public GameObject bulletPrefab;
@@ -118,11 +119,12 @@ public class weaponHitbox : MonoBehaviour
     }
     public void bulletGenerate()
     {
-        Vector3 bulletLocate = //transform.position +
-            //bulletPrefab.transform.position.x, bulletPrefab.transform.position.y, bulletPrefab.transform.position.x
-            new Vector3(0f, 0f, 0f);
-        var bulletRotate = Quaternion.Euler(bulletLocate);
-        Instantiate(bulletPrefab, transform.position, bulletRotate, transform);
+        var rotate = parent.rotation * bulletPrefab.transform.position;
+        Vector3 bulletLocate = transform.position + rotate * parent.localScale.x; 
+        //var prefabRotate = ;
+        //var bulletRotate = Quaternion.Euler(bulletLocate);
+        //Debug.Log($"{parent.localScale.x}, {Quaternion.identity.z}");
+        Instantiate(bulletPrefab, bulletLocate, parent.rotation, transform);
         stat.attackCooldown = stat.defaultCooldown;
         stat.weaponDurability -= stat.downgradePerhit;
     }
@@ -153,14 +155,17 @@ public class weaponHitbox : MonoBehaviour
         //attackHitbox = GetComponentInChildren<>();
         weaponRange = GetComponent<CircleCollider2D>();
         weaponCollider = attack.GetComponent<Collider2D>();
+
         player = GameObject.FindWithTag("Player").transform;
         hitbox = weaponCollider.GetComponent<Transform>();
         visualTransform = visual.GetComponent<Transform>();
+        parent = stat.GetComponent<Transform>();
 
         if (stat.weaponGenre == WeaponGenre.ranged)
         {
             weaponRange.radius = detectRange;
             weaponCollider.enabled = false;
+            wieldTimer += Time.deltaTime;
         }
     }
 

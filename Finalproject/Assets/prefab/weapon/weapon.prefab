@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 6598982140322911431}
   m_Layer: 6
   m_Name: attackRange
-  m_TagString: Untagged
+  m_TagString: WeaponRange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -171,7 +171,9 @@ MonoBehaviour:
   rangeTimer: 1
   detectRange: 2
   wieldTimer: 0
+  defaultWieldTime: 0.5
   wieldClockwise: 1
+  isWielding: 0
   stat: {fileID: 0}
   control: {fileID: 0}
   visual: {fileID: 0}
