@@ -18,7 +18,8 @@ public class attackingHitbox : MonoBehaviour
                 damageable.takeDamage(stat.weaponDamage);
                 stat.attackCooldown = stat.defaultCooldown;
                 stat.weaponDurability -= stat.downgradePerhit;
-                Debug.Log($"attacking");
+                //hitStat.isWielding = true;
+                Debug.Log($"weapon attacking");
             }
         }
     }

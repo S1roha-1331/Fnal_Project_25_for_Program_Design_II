@@ -1,7 +1,8 @@
 using UnityEngine;
 using System.Collections;
 public class starburst : MonoBehaviour
-{   
+{
+    //public GameObject adf;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {   
@@ -11,6 +12,7 @@ public class starburst : MonoBehaviour
         foreach (var k in GetComponentsInChildren<ParticleSystem>())
         {
             k.Play();
+
         }
 
         StartCoroutine(PlayAndDestroy());

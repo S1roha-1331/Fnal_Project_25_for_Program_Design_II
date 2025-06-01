@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1240637390806712932}
   - component: {fileID: 4726350331349415784}
   m_Layer: 6
-  m_Name: bullet
+  m_Name: AKbullet
   m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 900281890140804625}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.415, y: 0.07, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 1
   m_Children:

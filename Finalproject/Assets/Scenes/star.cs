@@ -42,8 +42,9 @@ public class star : MonoBehaviour
         }
 
         starspawner.GetComponent<StarSpawner>().count--;
-        Destroy(effect);
+       
         Destroy(gameObject);
-        
+        Destroy(effect);
+
     }
 }

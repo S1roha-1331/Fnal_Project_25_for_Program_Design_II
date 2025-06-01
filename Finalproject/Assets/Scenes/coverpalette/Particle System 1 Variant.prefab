@@ -142,7 +142,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7226846461489574515, guid: e80fcaa9b67c09f40887e05b2371d126, type: 3}
       propertyPath: EmissionModule.m_Bursts.Array.data[0].repeatInterval
-      value: 0.15
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 7226846461489574515, guid: e80fcaa9b67c09f40887e05b2371d126, type: 3}
       propertyPath: SizeModule.curve.maxCurve.m_Curve.Array.data[1].time
@@ -376,7 +376,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6317121426241535649, guid: 02fe0593fbacf344cb677017e845ece6, type: 3}
       propertyPath: EmissionModule.m_Bursts.Array.data[0].repeatInterval
-      value: 0.15
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 6317121426241535649, guid: 02fe0593fbacf344cb677017e845ece6, type: 3}
       propertyPath: SizeModule.curve.maxCurve.m_Curve.Array.data[1].time
@@ -521,6 +521,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 655011044781524674, guid: acc079ca87e74f4469cb2811493996ac, type: 3}
+      propertyPath: RotationModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 655011044781524674, guid: acc079ca87e74f4469cb2811493996ac, type: 3}
       propertyPath: ShapeModule.donutRadius
       value: 0.24
       objectReference: {fileID: 0}
@@ -529,8 +533,28 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 655011044781524674, guid: acc079ca87e74f4469cb2811493996ac, type: 3}
+      propertyPath: RotationModule.curve.scalar
+      value: 6.283185
+      objectReference: {fileID: 0}
+    - target: {fileID: 655011044781524674, guid: acc079ca87e74f4469cb2811493996ac, type: 3}
       propertyPath: ShapeModule.radiusThickness
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 655011044781524674, guid: acc079ca87e74f4469cb2811493996ac, type: 3}
+      propertyPath: RotationModule.x.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 655011044781524674, guid: acc079ca87e74f4469cb2811493996ac, type: 3}
+      propertyPath: RotationModule.y.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 655011044781524674, guid: acc079ca87e74f4469cb2811493996ac, type: 3}
+      propertyPath: RotationModule.curve.minScalar
+      value: 3.1415925
+      objectReference: {fileID: 0}
+    - target: {fileID: 655011044781524674, guid: acc079ca87e74f4469cb2811493996ac, type: 3}
+      propertyPath: RotationModule.curve.minMaxState
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 655011044781524674, guid: acc079ca87e74f4469cb2811493996ac, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.atime1

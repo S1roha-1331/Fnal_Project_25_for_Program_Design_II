@@ -6,6 +6,7 @@ public class weaponOrder : MonoBehaviour
     public int latestWeapon = -1;
 
     public int weaponLimit = 6;//the amount of extra weapon cannot above 6
+    public bool weaponReachedlimit = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

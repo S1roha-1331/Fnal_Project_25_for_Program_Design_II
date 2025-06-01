@@ -1,20 +1,37 @@
 using UnityEngine;
 using System.Collections;
-
+using System.Collections.Generic;
 public class CharacterShowcase : MonoBehaviour
 {
     public GameObject[] characters;
     public float moveDuration = 0.5f;
     private int currentIndex = 0;
     private bool isSwitching = false;
-
+    public List<Info> database;
+    private void Awake()
+    {
+       // ShowOnly(currentIndex);
+         database = new List<Info>();
+        for (int a = 0; a < characters.Length; a++)
+        {
+            Info temp = new Info();
+            temp.a = characters[a];
+            temp.locker = 1;
+            database.Add(temp);
+        }
+    }
     void Start()
-    {   
+    {
         
-            ShowOnly(currentIndex);
-        
+        ShowOnly(currentIndex);
+      
        
 
+        
+    }
+
+     void Update()
+    {
         
     }
 
@@ -70,4 +87,12 @@ public class CharacterShowcase : MonoBehaviour
             characters[i].SetActive(i == index);
         }
     }
+}
+public class Info {
+    public GameObject a;
+    public int locker;
+
+
+
+
 }

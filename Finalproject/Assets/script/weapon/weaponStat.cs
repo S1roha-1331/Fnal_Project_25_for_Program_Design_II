@@ -1,11 +1,5 @@
 using System.Threading;
 using UnityEngine;
-public enum WeaponGenre
-{
-    notdefined = 0,
-    melee = 1,
-    ranged = 2
-}
 
 public class weaponStat : MonoBehaviour
 {
@@ -20,8 +14,8 @@ public class weaponStat : MonoBehaviour
     public float weaponDamage = 0f;
     public float defaultDamage = 10f;
     [Header("Weapon CD")]
-    public float attackCooldown = 2f;
-    public float defaultCooldown = 2f;
+    public float attackCooldown = 1f;
+    public float defaultCooldown = 1f;
     public float weaponRepairCD = 15f;
     public float defaultRepairCD = 15f;
     [Header("Weapon Durability")]
@@ -53,6 +47,8 @@ public class weaponStat : MonoBehaviour
         else
         {
             weaponTag = ++order.latestWeapon;
+            if (order.latestWeapon == order.weaponLimit)
+                order.weaponReachedlimit = true;
             return true;
         }
     }

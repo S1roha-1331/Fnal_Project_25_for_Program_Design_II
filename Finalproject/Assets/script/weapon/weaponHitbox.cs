@@ -1,3 +1,5 @@
+using DG.Tweening;
+using NUnit.Framework.Internal.Execution;
 using UnityEngine;
 
 public class weaponHitbox : MonoBehaviour
@@ -8,10 +10,12 @@ public class weaponHitbox : MonoBehaviour
     public float defaultTimer = 1f;
     public float rangeTimer = 1f;
 
-    public float rangedRange = 2f;
+    public float detectRange = 2f;
 
     public float wieldTimer = 0f;
+    public float defaultWieldTime = 0.5f;
     public bool wieldClockwise = true;
+    public bool isWielding = false;
 
     public weaponStat stat;
     public weaponControl control;
@@ -42,26 +46,32 @@ public class weaponHitbox : MonoBehaviour
 
     void meleeWield()
     {
-        if (isAttacking)
+        if (isAttacking && isWielding)
         {
             wieldCDUpdate();
             wieldWeapon();
         }
-        else
+        else if(stat.attackCooldown <= 0f)
         {
             wieldTimer = 0f;
+            wieldTimer += Time.deltaTime;
+            isWielding = true;
         }
     }
     void wieldCDUpdate()
     {
-        if (wieldTimer < 1f)
+        if (0f < wieldTimer && wieldTimer < defaultWieldTime)
             wieldTimer += Time.deltaTime;
         else
+        {
             wieldTimer = 0f;
+            isWielding = false;
+            stat.attackCooldown = stat.defaultCooldown;
+        }
     }
     void wieldWeapon()
     {
-        float angle = control.twopi * wieldTimer / 4;
+        float angle = (control.twopi / 4) * (wieldTimer / defaultWieldTime);
         Vector3 turn = new Vector3(0f, 0f, -angle);
         if (!wieldClockwise) 
             turn.x = control.twopi / 2;
@@ -108,7 +118,11 @@ public class weaponHitbox : MonoBehaviour
     }
     public void bulletGenerate()
     {
-        Instantiate(bulletPrefab, transform.position, Quaternion.identity, transform);
+        Vector3 bulletLocate = //transform.position +
+            //bulletPrefab.transform.position.x, bulletPrefab.transform.position.y, bulletPrefab.transform.position.x
+            new Vector3(0f, 0f, 0f);
+        var bulletRotate = Quaternion.Euler(bulletLocate);
+        Instantiate(bulletPrefab, transform.position, bulletRotate, transform);
         stat.attackCooldown = stat.defaultCooldown;
         stat.weaponDurability -= stat.downgradePerhit;
     }
@@ -145,7 +159,7 @@ public class weaponHitbox : MonoBehaviour
 
         if (stat.weaponGenre == WeaponGenre.ranged)
         {
-            weaponRange.radius = rangedRange;
+            weaponRange.radius = detectRange;
             weaponCollider.enabled = false;
         }
     }
