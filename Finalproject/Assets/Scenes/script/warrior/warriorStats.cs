@@ -15,14 +15,18 @@ public class warriorStats : MonoBehaviour, IDamageable
     public float skillDamage;
     public float skillCooldown;
 
+    public int maxCoins = 5;
+    private int gainCoins;  
     public bool isDead = false;
     public int gainExp = 0;
     private warriorAnimator animator;
     public GameObject expBall;
+    public GameObject coins;
     [SerializeField] private GameObject damagePopupPrefab;
     // Start is called before the first frame update
     void Start()
     {
+        gainCoins = Random.Range(0, maxCoins + 1);
         currentHealth = maxHealth;
         animator = GetComponentInChildren<warriorAnimator>();
     }
@@ -31,7 +35,10 @@ public class warriorStats : MonoBehaviour, IDamageable
    
     void Die()
     {
-       
+        for (int i = 0; i < gainCoins; i++)
+        {
+            Instantiate(coins, transform.position, Quaternion.identity);
+        }
         for (int i = 0; i < gainExp; i++)
         {
             Instantiate(expBall, transform.position, Quaternion.identity);

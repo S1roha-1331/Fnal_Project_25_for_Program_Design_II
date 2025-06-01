@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 216c84363e31cdb40a995d770f40d66c
+guid: 23448a7180d5daa48a226b0bb1a6af97
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8951758378428492131
-    second: spr_wep_steel_holy_0_0
+      213: -5183890708239200405
+    second: steel_ghammer_0_vertical_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,7 +49,7 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 4
+  alignment: 7
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_wep_steel_holy_0_0
+      name: steel_ghammer_0_vertical_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 44
-        height: 12
+        width: 14
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d9694aaee27f4c380800000000000000
-      internalID: -8951758378428492131
+      spriteID: b6f44f4cdde1f08b0800000000000000
+      internalID: -5183890708239200405
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      spr_wep_steel_holy_0_0: -8951758378428492131
+      steel_ghammer_0_vertical_0: -5183890708239200405
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

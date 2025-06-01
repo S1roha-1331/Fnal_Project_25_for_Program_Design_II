@@ -11,7 +11,7 @@ public class weaponControl: MonoBehaviour
     public Transform player;
 
     //weapon radius and theta
-    private float radius = 2f;
+    private float radius = 2.5f;
     public float twopi = 360f;
 
     public bool isClockwise()

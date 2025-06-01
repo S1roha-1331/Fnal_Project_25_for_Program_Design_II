@@ -285,9 +285,13 @@ MonoBehaviour:
   spellCooldown: 5
   aoeCooldown: 10
   aoe2Cooldown: 15
+  maxCoins: 5
+  coins: {fileID: 5626845016863779357, guid: 20fd8fe349b17174191553d17a53d404, type: 3}
+  bossName: witch
   isDead: 0
   expBall: {fileID: 5626845016863779357, guid: a8c46c0b6ce385049bf3adfebf92829e, type: 3}
   anim: {fileID: 6912072968557343966}
+  bossHpBar: {fileID: 0}
 --- !u!114 &6912072969280168576
 MonoBehaviour:
   m_ObjectHideFlags: 0

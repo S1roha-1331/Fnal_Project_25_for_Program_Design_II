@@ -16,12 +16,16 @@ public class knightStats : MonoBehaviour, IDamageable
 
     public bool isDead = false;
     public int gainExp = 0;
+    public int maxCoins = 5;
+    private int gainCoins;
+    public GameObject coins;
     private knightAnimator animator;
     public GameObject expBall;
     [SerializeField] private GameObject damagePopupPrefab;
     // Start is called before the first frame update
     void Start()
     {
+        gainCoins = Random.Range(0, maxCoins + 1);
         currentHealth = maxHealth;
         animator = GetComponentInChildren<knightAnimator>();
     }
@@ -29,6 +33,10 @@ public class knightStats : MonoBehaviour, IDamageable
     // Update is called once per frame
     void Die()
     {
+        for(int i = 0; i < gainCoins; i++)
+        {
+            Instantiate(coins, transform.position, Quaternion.identity);
+        }
         for (int i = 0; i < gainExp; i++)
         {
             Instantiate(expBall, transform.position, Quaternion.identity);

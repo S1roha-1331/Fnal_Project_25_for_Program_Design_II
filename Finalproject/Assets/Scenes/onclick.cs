@@ -12,4 +12,11 @@ public class SceneSwitcher : MonoBehaviour
       
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
+    public void DeactivateAllChildren()
+    {
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            transform.GetChild(i).gameObject.SetActive(false);
+        }
+    }
 }
