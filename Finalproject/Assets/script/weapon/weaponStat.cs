@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class weaponStat : MonoBehaviour
 {
-    
+    public weaponControl control;
 
     [Header("Weapon ID")]
     public int weaponID = -1;
@@ -67,6 +67,7 @@ public class weaponStat : MonoBehaviour
     {   
         if (isbroken && weaponRepairCD <= 0f)
         {
+            control.animator.reload();
             isbroken = false;
             weaponDurability = maxDurability;
             weaponRepairCD = defaultRepairCD;
@@ -100,6 +101,9 @@ public class weaponStat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(weaponRepairCD == 0f)
+        {
+            control.animator.empty();
+        }
     }
 }

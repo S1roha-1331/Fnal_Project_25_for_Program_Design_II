@@ -11,7 +11,7 @@ public class weaponHitbox : MonoBehaviour
     public float defaultTimer = 1f;
     public float rangeTimer = 1f;
 
-    public float detectRange = 2f;
+    public float detectRange = 3f;
 
     public float wieldTimer = 0f;
     public float defaultWieldTime = 0.5f;
@@ -119,15 +119,35 @@ public class weaponHitbox : MonoBehaviour
     }
     public void bulletGenerate()
     {
-        var rotate = parent.rotation * bulletPrefab.transform.position;
-        Vector3 bulletLocate = transform.position + rotate * parent.localScale.x; 
-        //var prefabRotate = ;
+        Quaternion parentRotate = parent.rotation;
+        Vector3 prefabOffset = bulletPrefab.transform.position;
+        if (!wieldClockwise)
+            prefabOffset.y *= -1f;
+        var rotateOffset = parentRotate * prefabOffset ;
+        Vector3 bulletOffset = transform.position + rotateOffset * parent.localScale.x;
         //var bulletRotate = Quaternion.Euler(bulletLocate);
         //Debug.Log($"{parent.localScale.x}, {Quaternion.identity.z}");
-        Instantiate(bulletPrefab, bulletLocate, parent.rotation, transform);
+        control.animator.fire();
+        Instantiate(bulletPrefab, bulletOffset, parent.rotation);//search, transform
         stat.attackCooldown = stat.defaultCooldown;
         stat.weaponDurability -= stat.downgradePerhit;
     }
+    /*
+    public void bulletGenerate()
+    {
+        Quaternion parentRotate = parent.rotation;
+        Vector3 prefabOffset = bulletPrefab.transform.position;
+        if (!wieldClockwise)
+            prefabOffset.y *= -1f;
+        var rotateOffset = parentRotate * prefabOffset;
+        Vector3 bulletOffset = transform.position + rotateOffset * parent.localScale.x;
+        //var bulletRotate = Quaternion.Euler(bulletLocate);
+        //Debug.Log($"{parent.localScale.x}, {Quaternion.identity.z}");
+        Instantiate(bulletPrefab, bulletOffset, parent.rotation, transform);//search
+        stat.attackCooldown = stat.defaultCooldown;
+        stat.weaponDurability -= stat.downgradePerhit;
+    }
+    */
 
     //determine if there is any enemy in the attack range
     void OnTriggerStay2D(Collider2D other)
