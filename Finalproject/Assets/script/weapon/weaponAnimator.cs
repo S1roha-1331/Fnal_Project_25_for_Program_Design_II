@@ -12,7 +12,7 @@ public class weaponAnimator : MonoBehaviour
     //then the weapon will not appear
     void setVisibility()
     {
-        if(hitbox.isAttacking)
+        if(hitbox.isAttacking && hitbox.wieldTimer < hitbox.defaultWieldTime)
         {
             weapon.material.SetColor("_Color", new Color(1.0f, 1.0f, 1.0f, 1.0f));
         }
