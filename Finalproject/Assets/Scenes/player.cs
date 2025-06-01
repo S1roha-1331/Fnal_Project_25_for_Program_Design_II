@@ -8,6 +8,7 @@ public class player : MonoBehaviour
     public LayerMask groundLayer;
     public Animator animator;
     private bool cancontrol = false;
+    public bool c = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -41,6 +42,11 @@ public class player : MonoBehaviour
             {
                 animator.SetBool("run 0", false);
             }
+            if (c)
+            {
+                GetComponent<SpriteRenderer>().sortingLayerName = "mask";  
+                GetComponent<SpriteRenderer>().sortingOrder = 5;
+            }
         }
         else
         {
@@ -54,6 +60,7 @@ public class player : MonoBehaviour
         if (((1 << collision.gameObject.layer) & groundLayer) != 0)
         {
             cancontrol = true;
+            c = true;
         }
 
     }

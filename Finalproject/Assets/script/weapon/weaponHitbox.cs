@@ -1,5 +1,6 @@
 using DG.Tweening;
 using NUnit.Framework.Internal.Execution;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class weaponHitbox : MonoBehaviour
@@ -10,7 +11,7 @@ public class weaponHitbox : MonoBehaviour
     public float defaultTimer = 1f;
     public float rangeTimer = 1f;
 
-    public float detectRange = 2f;
+    public float detectRange = 3f;
 
     public float wieldTimer = 0f;
     public float defaultWieldTime = 0.5f;
@@ -30,7 +31,7 @@ public class weaponHitbox : MonoBehaviour
     public Transform player;
     public Transform hitbox;
     public Transform visualTransform;
-    //public Transform parent;
+    public Transform parent;
     public Transform enemy;
 
     public GameObject bulletPrefab;
@@ -118,14 +119,34 @@ public class weaponHitbox : MonoBehaviour
     }
     public void bulletGenerate()
     {
-        Vector3 bulletLocate = //transform.position +
-            //bulletPrefab.transform.position.x, bulletPrefab.transform.position.y, bulletPrefab.transform.position.x
-            new Vector3(0f, 0f, 0f);
-        var bulletRotate = Quaternion.Euler(bulletLocate);
-        Instantiate(bulletPrefab, transform.position, bulletRotate, transform);
+        Quaternion parentRotate = parent.rotation;
+        Vector3 prefabOffset = bulletPrefab.transform.position;
+        if (!wieldClockwise)
+            prefabOffset.y *= -1f;
+        var rotateOffset = parentRotate * prefabOffset ;
+        Vector3 bulletOffset = transform.position + rotateOffset * parent.localScale.x; 
+        //var bulletRotate = Quaternion.Euler(bulletLocate);
+        //Debug.Log($"{parent.localScale.x}, {Quaternion.identity.z}");
+        Instantiate(bulletPrefab, bulletOffset, parent.rotation);//search, transform
         stat.attackCooldown = stat.defaultCooldown;
         stat.weaponDurability -= stat.downgradePerhit;
     }
+    /*
+    public void bulletGenerate()
+    {
+        Quaternion parentRotate = parent.rotation;
+        Vector3 prefabOffset = bulletPrefab.transform.position;
+        if (!wieldClockwise)
+            prefabOffset.y *= -1f;
+        var rotateOffset = parentRotate * prefabOffset;
+        Vector3 bulletOffset = transform.position + rotateOffset * parent.localScale.x;
+        //var bulletRotate = Quaternion.Euler(bulletLocate);
+        //Debug.Log($"{parent.localScale.x}, {Quaternion.identity.z}");
+        Instantiate(bulletPrefab, bulletOffset, parent.rotation, transform);//search
+        stat.attackCooldown = stat.defaultCooldown;
+        stat.weaponDurability -= stat.downgradePerhit;
+    }
+    */
 
     //determine if there is any enemy in the attack range
     void OnTriggerStay2D(Collider2D other)
@@ -153,14 +174,17 @@ public class weaponHitbox : MonoBehaviour
         //attackHitbox = GetComponentInChildren<>();
         weaponRange = GetComponent<CircleCollider2D>();
         weaponCollider = attack.GetComponent<Collider2D>();
+
         player = GameObject.FindWithTag("Player").transform;
         hitbox = weaponCollider.GetComponent<Transform>();
         visualTransform = visual.GetComponent<Transform>();
+        parent = stat.GetComponent<Transform>();
 
         if (stat.weaponGenre == WeaponGenre.ranged)
         {
             weaponRange.radius = detectRange;
             weaponCollider.enabled = false;
+            wieldTimer += Time.deltaTime;
         }
     }
 

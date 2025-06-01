@@ -24,7 +24,12 @@ public class WeaponData : ScriptableObject
     public float damage;
     public float fireRate;
     public int magSize;
+
+    [Header("Bullet Stats")]
+    public float bulletSpeed;
+    public float bulletRadius;
     public float detectRange;
+
 
     [Header("")]
     public GameObject hitbox;

@@ -7,6 +7,8 @@ public class weaponAnimator : MonoBehaviour
     public weaponStat stat;
     public SpriteRenderer weapon;
 
+    private float transparentParameter = .6f;
+
     //set the visibility of the weapon 
     //if there is no enemy in the attack range of the weapon
     //then the weapon will not appear
@@ -15,6 +17,10 @@ public class weaponAnimator : MonoBehaviour
         if(hitbox.isAttacking && hitbox.wieldTimer < hitbox.defaultWieldTime)
         {
             weapon.material.SetColor("_Color", new Color(1.0f, 1.0f, 1.0f, 1.0f));
+            if(hitbox.wieldTimer == 0f)
+            {
+                weapon.material.SetColor("_Color", new Color(1.0f, 1.0f, 1.0f, transparentParameter));//when weapon is inactive
+            }
         }
         else
         {
