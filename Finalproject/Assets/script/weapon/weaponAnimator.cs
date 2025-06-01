@@ -66,4 +66,9 @@ public class weaponAnimator : MonoBehaviour
         animator.ResetTrigger("Basic");
         animator.SetTrigger("Basic");
     }
+
+    public void weaponFire()
+    {
+        hitbox.weaponFire();
+    }
 }
