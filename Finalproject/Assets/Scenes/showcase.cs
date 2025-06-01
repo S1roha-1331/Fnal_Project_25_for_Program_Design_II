@@ -34,6 +34,12 @@ public class CharacterShowcase : MonoBehaviour
     {
         
     }
+    public void Release()
+    {   
+        Debug.Log("釋放所有角色的剛體");
+        characters[currentIndex].GetComponent<Rigidbody2D>().simulated = true;
+
+    }
 
     public void ShowNext()
     {
