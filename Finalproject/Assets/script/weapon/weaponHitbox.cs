@@ -119,15 +119,18 @@ public class weaponHitbox : MonoBehaviour
     }
     public void bulletGenerate()
     {
+        control.animator.fire();
+    }
+    public void weaponFire()
+    {
         Quaternion parentRotate = parent.rotation;
         Vector3 prefabOffset = bulletPrefab.transform.position;
         if (!wieldClockwise)
             prefabOffset.y *= -1f;
-        var rotateOffset = parentRotate * prefabOffset ;
+        var rotateOffset = parentRotate * prefabOffset;
         Vector3 bulletOffset = transform.position + rotateOffset * parent.localScale.x;
         //var bulletRotate = Quaternion.Euler(bulletLocate);
         //Debug.Log($"{parent.localScale.x}, {Quaternion.identity.z}");
-        control.animator.fire();
         Instantiate(bulletPrefab, bulletOffset, parent.rotation);//search, transform
         stat.attackCooldown = stat.defaultCooldown;
         stat.weaponDurability -= stat.downgradePerhit;
@@ -159,7 +162,7 @@ public class weaponHitbox : MonoBehaviour
         else if(rangeTimer < 0f) 
         {
             isAttacking = false;
-            rangeTimer = 1f;
+            rangeTimer = defaultTimer;
         }
     }
 
