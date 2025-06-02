@@ -58,7 +58,7 @@ git clone https://github.com/S1roha-1331/Fnal_Project_25_for_Program_Design_II.g
 
 - <span style="color:blue">**Movement**</span>: `WASD` keys or **Controller left stick**
 - <span style="color:green">**Indicator**</span>: `Mouse` or **Controller right stick**
-- <span style="color:purple">**Actions**</span>: `Space`/`Enter` or **Controller buttons**
+- <span style="color:purple">**Select**</span>: `LeftClick`/`Enter` or **Controller buttons**
 
 ## 🗺️ <span style="color:darkgreen">Gameplay Mechanics</span>
 
