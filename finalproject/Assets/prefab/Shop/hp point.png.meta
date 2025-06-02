@@ -1,6 +1,11 @@
 fileFormatVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 guid: 88af7371cc8145f43823cf8e2a18c23d
+=======
+<<<<<<<< HEAD:Finalproject/Assets/Scenes/sprite/card/icon/image47.png.meta
+guid: 6269471b7b63e96478d808d576613fd2
+>>>>>>> Stashed changes
 TextureImporter:
   internalIDToNameTable: []
 =======
@@ -19,6 +24,9 @@ TextureImporter:
       213: 5087340662866164683
     second: "ChatGPT Image 2025\u5E746\u67082\u65E5 \u4E0B\u534805_08_54_0"
 >>>>>>>> d157b5617b6cca044c579317eb14492c6ead301a:finalproject/Assets/prefab/Shop/hp point.png.meta
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   externalObjects: {}
   serializedVersion: 13
@@ -175,6 +183,9 @@ TextureImporter:
     nameFileIdTable:
       "ChatGPT Image 2025\u5E746\u67082\u65E5 \u4E0B\u534805_08_54_0": 5087340662866164683
 >>>>>>>> d157b5617b6cca044c579317eb14492c6ead301a:finalproject/Assets/prefab/Shop/hp point.png.meta
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
