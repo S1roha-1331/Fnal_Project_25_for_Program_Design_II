@@ -27,7 +27,7 @@ A <span style="color:crimson">**challenging**</span> roguelike survival game bui
 - **⭐ Level-Up System**: Character <span style="color:darkorange">**progression**</span> with meaningful choices
 
 <div align="center">
-  <img src="https://github.com/S1roha-1331/Fnal_Project_25_for_Program_Design_II/raw/main/finalproject/Assets/map/Atlas-Props.png" alt="Game Props and Assets" width="400">
+  <img src="https://github.com/S1roha-1331/Fnal_Project_25_for_Program_Design_II/raw/main/finalproject/Assets/map/torch_burning.png" alt="Game Props and Assets" width="400">
   <p><em>Game props and environmental assets</em></p>
 </div>
 
