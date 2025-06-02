@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_wep_steel_sneak_1_0: -7979368134202722264
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

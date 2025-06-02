@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_wep_iron_katana_2_0: 8468498998871696912
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

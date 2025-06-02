@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_wep_iron_leaf_1_0: -4745088580857810553
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

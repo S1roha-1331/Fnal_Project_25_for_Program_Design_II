@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_wep_iron_baxe_4_0: 3608005903037927846
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

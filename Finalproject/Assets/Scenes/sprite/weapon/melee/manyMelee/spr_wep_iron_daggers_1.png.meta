@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_wep_iron_daggers_1_0: 7546234782158874447
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

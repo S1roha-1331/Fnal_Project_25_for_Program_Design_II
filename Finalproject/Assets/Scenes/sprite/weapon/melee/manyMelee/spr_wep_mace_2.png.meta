@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_wep_mace_2_0: 6798390204528903051
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

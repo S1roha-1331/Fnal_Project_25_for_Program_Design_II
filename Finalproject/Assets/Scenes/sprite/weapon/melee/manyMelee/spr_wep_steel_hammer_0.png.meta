@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_wep_steel_hammer_0_0: 6196951958107496718
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_wep_steel_voldo_0_0: -3214771326276371540
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

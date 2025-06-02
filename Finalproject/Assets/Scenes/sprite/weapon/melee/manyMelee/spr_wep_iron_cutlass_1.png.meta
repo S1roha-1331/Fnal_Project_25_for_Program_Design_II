@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_wep_iron_cutlass_1_0: 2814447168597534092
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

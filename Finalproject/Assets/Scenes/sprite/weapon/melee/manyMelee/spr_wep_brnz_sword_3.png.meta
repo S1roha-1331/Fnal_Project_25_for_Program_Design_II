@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_wep_brnz_sword_3_0: -967266727671882949
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

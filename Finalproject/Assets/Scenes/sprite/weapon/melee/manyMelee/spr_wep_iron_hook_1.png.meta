@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_wep_iron_hook_1_0: 1285725642911437962
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_wep_steel_huge_0_0: 3415085128118083173
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

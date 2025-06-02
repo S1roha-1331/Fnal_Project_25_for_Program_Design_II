@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_wep_iron_scythe_0_0: -1830069401650363247
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
