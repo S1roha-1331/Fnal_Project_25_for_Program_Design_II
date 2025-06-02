@@ -25,7 +25,7 @@ public class playerStats : MonoBehaviour
             if (value > 0 && value != level)
             {
                 level = value;      
-                // Ä²µo¨Æ¥ó³qª¾¥~¬Éµ¥¯Å§ïÅÜ
+                // Ä²ï¿½oï¿½Æ¥ï¿½qï¿½ï¿½ï¿½~ï¿½Éµï¿½ï¿½Å§ï¿½ï¿½ï¿½
                 OnLevelChanged?.Invoke(level);
             }
         }
@@ -37,7 +37,7 @@ public class playerStats : MonoBehaviour
             return basicHealth + (level - 1) * healthPerLevel;
         }
     }
-    // «Å§i¨Æ¥ó¡A­q¾\¦¹¨Æ¥ó¨Ó¨ú±oµ¥¯ÅÅÜ§ó³qª¾
+    // ï¿½Å§iï¿½Æ¥ï¿½Aï¿½qï¿½\ï¿½ï¿½ï¿½Æ¥ï¿½Ó¨ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½ï¿½Ü§ï¿½qï¿½ï¿½
     public event Action<int> OnLevelChanged;
     public void increaseAttackI()
     {
