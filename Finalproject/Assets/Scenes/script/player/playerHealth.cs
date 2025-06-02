@@ -5,19 +5,19 @@ public class playerHealth : MonoBehaviour,IDamageable
     private playerStats stats;
     public float currentHp;
     public float maxHp;
-    private Animator anim;
+    private playerAnimator animator;
+    public bool isDead=false;
 
     void Start()
     {
         stats = GetComponent<playerStats>();
-
+        animator=GetComponent<playerAnimator>();
         // 訂閱等級變更事件
         stats.OnLevelChanged += HandleLevelUp;
 
         UpdateMaxHealth();
         currentHp = maxHp;
 
-        anim = GetComponent<Animator>();
     }
 
     void OnDestroy()
@@ -36,7 +36,7 @@ public class playerHealth : MonoBehaviour,IDamageable
     public void takeDamage(float amount)
     {
         Debug.Log($"受到{amount}點傷害");
-        //anim.SetBool("hurt", true);
+        animator.triggerHurt();
         currentHp -= amount;
 
         if (currentHp <= 0)
@@ -47,8 +47,8 @@ public class playerHealth : MonoBehaviour,IDamageable
 
     public void Die()
     {
-        //anim.SetBool("die", true);
-        // 這裡可以加死亡後的處理邏輯
+        isDead = true;
+        animator.triggerDeath();
     }
 
     public void OnLevelUp(bool restoreFullHealth = true)

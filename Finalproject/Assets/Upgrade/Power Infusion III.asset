@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2504a8c940557634d84ad92d14437edb, type: 3}
+  m_Name: Power Infusion III
+  m_EditorClassIdentifier: 
+  upgradeName: Power Infusion III
+  description: You unleash devastating force with every attack.
+  icon: {fileID: -6815437586108985893, guid: b6ad601e71ebc714fbe8862b30aa5111, type: 3}
+  background: {fileID: 957923467054592815, guid: dfe31f41f7667ba4d8a1b09dd2c0054e, type: 3}
+  effectType: 2
+  upgradeKind: 1

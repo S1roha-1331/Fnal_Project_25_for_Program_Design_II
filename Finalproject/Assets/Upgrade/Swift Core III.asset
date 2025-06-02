@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2504a8c940557634d84ad92d14437edb, type: 3}
+  m_Name: Swift Core III
+  m_EditorClassIdentifier: 
+  upgradeName: Swift Core III
+  description: You move with lightning speed.
+  icon: {fileID: -919293608443399656, guid: c3c01fa482f901548a6069b5d5e651c1, type: 3}
+  background: {fileID: 957923467054592815, guid: dfe31f41f7667ba4d8a1b09dd2c0054e, type: 3}
+  effectType: 5
+  upgradeKind: 1

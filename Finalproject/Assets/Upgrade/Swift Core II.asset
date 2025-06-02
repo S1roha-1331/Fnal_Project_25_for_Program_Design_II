@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2504a8c940557634d84ad92d14437edb, type: 3}
+  m_Name: Swift Core II
+  m_EditorClassIdentifier: 
+  upgradeName: Swift Core II
+  description: Speed courses through your body.
+  icon: {fileID: -3606608701661380065, guid: 6101d3e24a840fe49bee5c418feeff9e, type: 3}
+  background: {fileID: -4241457643090145319, guid: 7157df2ea741cfe43a5637766be18bbd, type: 3}
+  effectType: 4
+  upgradeKind: 1
