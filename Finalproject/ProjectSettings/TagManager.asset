@@ -11,6 +11,7 @@ TagManager:
   - UI
   - WeaponRange
   - loadingUI
+  - scenehandler
   layers:
   - Default
   - TransparentFX

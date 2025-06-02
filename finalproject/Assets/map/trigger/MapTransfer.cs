@@ -1,10 +1,11 @@
+using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MapTransfer : MonoBehaviour
 {
     [SerializeField] private string targetSceneName; // 要切換到的場景名稱
-
+    public GameObject handler;
     private void Start()
     {
         Debug.Log("✅ MapTransfer.cs 啟動成功！");
@@ -17,7 +18,9 @@ public class MapTransfer : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("✅ Player 觸發成功！");
-            SceneManager.LoadScene(targetSceneName);
+            // SceneManager.LoadScene(targetSceneName);
+            handler = GameObject.FindGameObjectWithTag("scenehandler");
+            handler.GetComponent<LoadingScene>().LoadScene(3);
         }
 
     }

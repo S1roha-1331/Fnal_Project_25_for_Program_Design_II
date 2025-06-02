@@ -54,7 +54,7 @@ public class LoadingScene : MonoBehaviour
     public void Update()
     {
         int randomNumber = Random.Range(0, 5);
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(0) && SceneManager.GetActiveScene().name == "loadingscene")
         {
             Vector3 clickPosition = Input.mousePosition; clickPosition.z = 100f;
             Debug.Log("點擊了滑鼠！");
@@ -87,7 +87,7 @@ public class LoadingScene : MonoBehaviour
     }
     IEnumerator LoadLoadingSceneThenScene(int sceneId)
     {
-        // 載入 loading 場景
+       
         AsyncOperation loadLoading = SceneManager.LoadSceneAsync("loadingscene");
         while (!loadLoading.isDone)
         {   
@@ -101,10 +101,10 @@ public class LoadingScene : MonoBehaviour
 
         A = Instantiate(LoadingCanvas1, LoadingCanvas1.transform.position, Quaternion.identity);
         B = Instantiate(LoadingScreen1, LoadingScreen1.transform.position, Quaternion.identity);
-        Transform child = A.transform.GetChild(2);  // 第 0 個子物件
+        Transform child = A.transform.GetChild(2);  
         TextMeshProUGUI tmp = child.GetComponent<TextMeshProUGUI>();
         tmp.text = messages[Random.Range(0,4)];
-        // 呼叫載入真正場景的 Coroutine
+       
         yield return StartCoroutine(LoadSceneAsync(sceneId, delayesecond, A, B));
     }
     IEnumerator LoadSceneAsync(int sceneId,float delaysecond,GameObject a,GameObject b)

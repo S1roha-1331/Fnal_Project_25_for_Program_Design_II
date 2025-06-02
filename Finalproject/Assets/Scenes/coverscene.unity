@@ -17581,7 +17581,7 @@ GameObject:
   - component: {fileID: 742458342}
   m_Layer: 0
   m_Name: nextscenehandler
-  m_TagString: Untagged
+  m_TagString: scenehandler
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
