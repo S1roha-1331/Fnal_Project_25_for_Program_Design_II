@@ -53,6 +53,7 @@ public class ExperienceManager : MonoBehaviour
         if (totalExperience >= nextLevelsExperience)
         {
             currentLevel++;
+            upgradeUI.instance.ShowUpgradeOptions();
             UpdateLevel();
             // 可以加動畫、音效或特效
         }

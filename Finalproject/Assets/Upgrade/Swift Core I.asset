@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2504a8c940557634d84ad92d14437edb, type: 3}
+  m_Name: Swift Core I
+  m_EditorClassIdentifier: 
+  upgradeName: Swift Core I
+  description: Your steps feel lighter and quicker.
+  icon: {fileID: 1639680418691080177, guid: c9b1fcbf97468ee4ea19246cfeb10177, type: 3}
+  background: {fileID: 8516844521304844067, guid: 39b40dd68d18c2c43ba38e5906111ede, type: 3}
+  effectType: 3
+  upgradeKind: 1

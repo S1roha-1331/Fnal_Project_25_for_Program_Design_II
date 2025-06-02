@@ -120,6 +120,7 @@ public class weaponHitbox : MonoBehaviour
     public void bulletGenerate()
     {
         control.animator.fire();
+        //weaponFire();
     }
     public void weaponFire()
     {

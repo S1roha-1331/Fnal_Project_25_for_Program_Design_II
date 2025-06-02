@@ -3,15 +3,17 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-
+    public float basicSpeed = 5f;
+    public float finalSpeed;
+    private playerHealth playerHealth;
     private Rigidbody2D rb;
     private SpriteRenderer sr;
-    private Animator animator;
+    private playerAnimator playerAnimator;
 
     private Vector2 moveInput;
     private Vector2 lookInput;
 
+    
     private PlayerInputActions inputActions;
     private Camera mainCam;
 
@@ -46,14 +48,20 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        playerAnimator = GetComponent<playerAnimator>();
+        playerHealth = GetComponent<playerHealth>();
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
-        animator = GetComponent<Animator>();
         mainCam = Camera.main;
+        finalSpeed=basicSpeed;
     }
 
     void Update()
     {
+        if (playerHealth.isDead)
+        {
+            return;
+        }
         // 翻轉角色圖像
         if (moveInput.x < 0)
             sr.flipX = true;
@@ -61,12 +69,16 @@ public class PlayerController : MonoBehaviour
             sr.flipX = false;
 
         // 控制動畫播放
-        animator.SetBool("isWalking", moveInput != Vector2.zero);
+        playerAnimator.setWalking(moveInput != Vector2.zero);
     }
 
     void FixedUpdate()
     {
-        rb.MovePosition(rb.position + moveInput * moveSpeed * Time.fixedDeltaTime);
+        if (playerHealth.isDead)
+        {
+            return;
+        }
+        rb.MovePosition(rb.position + moveInput * finalSpeed * Time.fixedDeltaTime);
     }
 
     public Vector2 GetAttackDirection()

@@ -8,7 +8,7 @@ public class warriorAttack : MonoBehaviour
     private float attackCooldown;
     private float attackTimer;
     private float skillTimer;
-    [SerializeField] playerHealth playerHealth;
+    [SerializeField] private playerHealth playerHealth;
     public void startAttack()
     {
         isAttack = true;
