@@ -1,0 +1,795 @@
+fileFormatVersion: 2
+guid: 82a2744e1f6f61b46bf845b31921d9ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 813901192864550137
+    second: skeleton_idle_strip_27x76_dark_0
+  - first:
+      213: 3478034754913262125
+    second: skeleton_idle_strip_27x76_dark_1
+  - first:
+      213: 1943476283313131192
+    second: skeleton_idle_strip_27x76_dark_2
+  - first:
+      213: -368870224918316805
+    second: skeleton_idle_strip_27x76_dark_3
+  - first:
+      213: 6768730178879099549
+    second: skeleton_idle_strip_27x76_dark_4
+  - first:
+      213: 1931033925906962566
+    second: skeleton_idle_strip_27x76_dark_5
+  - first:
+      213: 6456049106113221788
+    second: skeleton_idle_strip_27x76_dark_6
+  - first:
+      213: -3074558614726214848
+    second: skeleton_idle_strip_27x76_dark_7
+  - first:
+      213: -2076454083618358401
+    second: skeleton_idle_strip_27x76_dark_8
+  - first:
+      213: -3240144897964592297
+    second: skeleton_idle_strip_27x76_dark_9
+  - first:
+      213: 531301407235285107
+    second: skeleton_idle_strip_27x76_dark_10
+  - first:
+      213: -6447085814836984149
+    second: skeleton_idle_strip_27x76_dark_11
+  - first:
+      213: 2676442927178817717
+    second: skeleton_idle_strip_27x76_dark_12
+  - first:
+      213: 6760092026710225256
+    second: skeleton_idle_strip_27x76_dark_13
+  - first:
+      213: -3579501100839594991
+    second: skeleton_idle_strip_27x76_dark_14
+  - first:
+      213: -2106942983766057048
+    second: skeleton_idle_strip_27x76_dark_15
+  - first:
+      213: -2107961623300204411
+    second: skeleton_idle_strip_27x76_dark_16
+  - first:
+      213: 7561397698569135351
+    second: skeleton_idle_strip_27x76_dark_17
+  - first:
+      213: 3825838996465254113
+    second: skeleton_idle_strip_27x76_dark_18
+  - first:
+      213: 7001941967519117160
+    second: skeleton_idle_strip_27x76_dark_19
+  - first:
+      213: -151624442200925762
+    second: skeleton_idle_strip_27x76_dark_20
+  - first:
+      213: -6485582047404011201
+    second: skeleton_idle_strip_27x76_dark_21
+  - first:
+      213: -8552302748526052337
+    second: skeleton_idle_strip_27x76_dark_22
+  - first:
+      213: 994141573559797841
+    second: skeleton_idle_strip_27x76_dark_23
+  - first:
+      213: 7296545703994253075
+    second: skeleton_idle_strip_27x76_dark_24
+  - first:
+      213: 87543774318042388
+    second: skeleton_idle_strip_27x76_dark_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 12
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006b471fdd3fc46499352b0b136ff510
+      internalID: 347691921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 12
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635cebd96398f3c4a86362e70886a1d9
+      internalID: -1974970246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 12
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448bea62d7c1888498531f517d3c4991
+      internalID: 966349979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_3
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 12
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f390f5f006cc01a4d8095f2a57113a0c
+      internalID: -1251048441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_4
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 12
+        width: 57
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe94b89430d8bd9449834ea0344c49bd
+      internalID: -1229908633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_5
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 12
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15116ef85949434eaad1b62275b71a4
+      internalID: 1707733123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_6
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 12
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a581260909024e42ba564d90cbd77b6
+      internalID: 862639603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_7
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 12
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2302a1b1979467409fbeee9dafcfb9d
+      internalID: 369389715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_8
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 12
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4089b31d3fa3147b441056e59f3867
+      internalID: -417453472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_9
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 12
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101877604c7ba1845b91790bcdb7e00f
+      internalID: -538168740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_10
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 12
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4649d3a38c0da744da2fcb13ec36dca3
+      internalID: 1660291523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_11
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 12
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b484d7187ae37d441a987f3e81190c84
+      internalID: -1105937459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_12
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 12
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c714d8e5030b85a409bae2fdeea864ea
+      internalID: 975771074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_13
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 12
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf24b4cd2b9e7f4aa3dfdaa4bce6950
+      internalID: 842952956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_14
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 12
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a551145bd44e041478d091156a7cfd5f
+      internalID: 1638042082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_15
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 12
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd877781638f6846b50ffb6cb90775c
+      internalID: 309891245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_16
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 12
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac873b37e6fc2041bea11ab5fa1164d
+      internalID: -307720291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_17
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 12
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655e50fc65826ae44b438d246ca94168
+      internalID: -1164260886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_18
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 12
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13725597b1caee04985a935be8474504
+      internalID: 671004661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_19
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 12
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b7b03ea09ad0f43851aef42b38b9c9
+      internalID: 56164194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_20
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 12
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809d0465afa7a21448ae00778ad7ebb3
+      internalID: 910691774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_21
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 12
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0697d1b0d4c7ae47b96ef4f57dfb3de
+      internalID: -920701599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_22
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 12
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf24722191b8be44b8d96feb151d958b
+      internalID: -1087081744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_23
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 12
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bcd73e18d056e44a4e1624d7166b88
+      internalID: -1216960679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_24
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 12
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71eda4b2c4d31004e86d3fe3b1067396
+      internalID: -844561238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_idle_strip_27x76_dark_25
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 12
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73afb22de8074b408d1fa36c01ae353
+      internalID: 1880785368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 87bd06d18106f42469396333d3f6033b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      skeleton_idle_strip_27x76_dark_0: 347691921
+      skeleton_idle_strip_27x76_dark_1: -1974970246
+      skeleton_idle_strip_27x76_dark_10: 1660291523
+      skeleton_idle_strip_27x76_dark_11: -1105937459
+      skeleton_idle_strip_27x76_dark_12: 975771074
+      skeleton_idle_strip_27x76_dark_13: 842952956
+      skeleton_idle_strip_27x76_dark_14: 1638042082
+      skeleton_idle_strip_27x76_dark_15: 309891245
+      skeleton_idle_strip_27x76_dark_16: -307720291
+      skeleton_idle_strip_27x76_dark_17: -1164260886
+      skeleton_idle_strip_27x76_dark_18: 671004661
+      skeleton_idle_strip_27x76_dark_19: 56164194
+      skeleton_idle_strip_27x76_dark_2: 966349979
+      skeleton_idle_strip_27x76_dark_20: 910691774
+      skeleton_idle_strip_27x76_dark_21: -920701599
+      skeleton_idle_strip_27x76_dark_22: -1087081744
+      skeleton_idle_strip_27x76_dark_23: -1216960679
+      skeleton_idle_strip_27x76_dark_24: -844561238
+      skeleton_idle_strip_27x76_dark_25: 1880785368
+      skeleton_idle_strip_27x76_dark_3: -1251048441
+      skeleton_idle_strip_27x76_dark_4: -1229908633
+      skeleton_idle_strip_27x76_dark_5: 1707733123
+      skeleton_idle_strip_27x76_dark_6: 862639603
+      skeleton_idle_strip_27x76_dark_7: 369389715
+      skeleton_idle_strip_27x76_dark_8: -417453472
+      skeleton_idle_strip_27x76_dark_9: -538168740
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

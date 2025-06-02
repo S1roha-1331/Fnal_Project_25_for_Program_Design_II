@@ -18,7 +18,11 @@ MonoBehaviour:
   weaponIcon: {fileID: 0}
   weaponSprite: {fileID: 21300000, guid: 429507120eb2e8945bb4bb1f9ca69710, type: 3}
   weaponAnimator: {fileID: 0}
-  bulletPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 4959307695432420675, guid: 593321d4422d9174aa8080c73d7a5446, type: 3}
   damage: 5
   fireRate: 1.8
   magSize: 20
+  bulletSpeed: 0.03
+  bulletRadius: 0.15
+  detectRange: 3
+  hitbox: {fileID: 0}

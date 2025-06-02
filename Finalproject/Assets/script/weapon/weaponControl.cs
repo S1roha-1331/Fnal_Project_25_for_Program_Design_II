@@ -9,6 +9,8 @@ public class weaponControl: MonoBehaviour
     public AttackIndicator indicator;
 
     public Transform player;
+    public Vector3 dir;
+    public float angle;
 
     //weapon radius and theta
     private float radius = 2.5f;
@@ -44,17 +46,17 @@ public class weaponControl: MonoBehaviour
         stat.weaponCDUpdate();
 
         //set weapon direct by player indicator
-        Vector3 dir = indicator.player.GetAttackDirection();
+        dir = indicator.player.GetAttackDirection();
 
         if(dir != Vector3.zero)
         {
-
             //Vector2 right = Vector2.right;
             float angleOrder = (stat.weaponTag - 1) * (twopi / stat.order.latestWeapon);
             angleOrder *= -1;
             var rotate = Quaternion.Euler(0, 0, angleOrder) * dir;
             transform.position = player.position + rotate.normalized * radius;// * dir.normalized
-            float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+
+            angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
             transform.localRotation = Quaternion.Euler(0, 0, angle);
         }
 
