@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
@@ -7,11 +8,13 @@ public class ShopUI : MonoBehaviour
 {
     public GameObject itemPrefab;
     public Transform contentArea;
-    public List<ShopItemData> items; 
+    public List<ShopItemData> items;
+    public TextMeshProUGUI insufficientText;
 
     void Start()
     {
         PopulateShop();
+        insufficientText.gameObject.SetActive(false);
     }
 
     void PopulateShop()
@@ -35,10 +38,21 @@ public class ShopUI : MonoBehaviour
         if (InventoryManager.Instance.SpendCoins(item.price))
         {
             Debug.Log("已購買：" + item.itemName);
+            insufficientText.text = ""; 
         }
         else
         {
-            Debug.Log("金幣不足！");
+            Debug.Log("金幣不足");
+            StartCoroutine(ShowInsufficientMessage());
         }
+    }
+
+    IEnumerator ShowInsufficientMessage()
+    {
+        insufficientText.gameObject.SetActive(true); 
+        insufficientText.text = "Come back when your wallet's heavier... or your morals lighter.";
+        insufficientText.alpha = 1;
+        yield return new WaitForSeconds(2f);
+        insufficientText.gameObject.SetActive(false); 
     }
 }
