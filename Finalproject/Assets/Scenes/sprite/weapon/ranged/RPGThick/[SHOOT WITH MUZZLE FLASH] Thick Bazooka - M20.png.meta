@@ -173,8 +173,13 @@ TextureImporter:
         y: 0
         width: 192
         height: 32
+<<<<<<< Updated upstream
       alignment: 4
       pivot: {x: 0, y: 0.5}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -195,8 +200,13 @@ TextureImporter:
         y: 0
         width: 192
         height: 32
+<<<<<<< Updated upstream
       alignment: 4
       pivot: {x: 0, y: 0.5}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -239,8 +249,13 @@ TextureImporter:
         y: 0
         width: 192
         height: 32
+<<<<<<< Updated upstream
       alignment: 4
       pivot: {x: 0, y: 0.5}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -261,8 +276,13 @@ TextureImporter:
         y: 0
         width: 192
         height: 32
+<<<<<<< Updated upstream
       alignment: 4
       pivot: {x: 0, y: 0.5}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -305,8 +325,13 @@ TextureImporter:
         y: 0
         width: 192
         height: 32
+<<<<<<< Updated upstream
       alignment: 4
       pivot: {x: 0, y: 0.5}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -327,8 +352,13 @@ TextureImporter:
         y: 0
         width: 192
         height: 32
+<<<<<<< Updated upstream
       alignment: 4
       pivot: {x: 0, y: 0.5}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -355,7 +385,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
+<<<<<<< Updated upstream
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":192.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.5},"autoSlicingMethod":0,"spriteAlignment":4,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+=======
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":192.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+>>>>>>> Stashed changes
     nameFileIdTable:
       '[SHOOT WITH MUZZLE FLASH] Thick Bazooka - M20_0': -6523327979174796376
       '[SHOOT WITH MUZZLE FLASH] Thick Bazooka - M20_1': 5787553596378252846

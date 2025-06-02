@@ -16,6 +16,7 @@ public class witchController : MonoBehaviour
 
     private void Start()
     {
+
         player = GameObject.FindWithTag("Player").transform;
     }
     private void Update()

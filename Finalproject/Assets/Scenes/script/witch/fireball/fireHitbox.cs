@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class fireHitbox : MonoBehaviour
 {
-    public float damage = 2f;
+    public float damage = 6f;
     public fireballAnimator fireballAnimator;
     public fireballFly fireballFly;
     public Collider2D fireballCollider;

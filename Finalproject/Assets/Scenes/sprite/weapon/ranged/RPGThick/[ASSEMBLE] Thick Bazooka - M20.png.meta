@@ -218,8 +218,13 @@ TextureImporter:
         y: 0
         width: 192
         height: 32
+<<<<<<< Updated upstream
       alignment: 4
       pivot: {x: 0, y: 0.5}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -240,8 +245,13 @@ TextureImporter:
         y: 0
         width: 192
         height: 32
+<<<<<<< Updated upstream
       alignment: 4
       pivot: {x: 0, y: 0.5}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -262,8 +272,13 @@ TextureImporter:
         y: 0
         width: 192
         height: 32
+<<<<<<< Updated upstream
       alignment: 4
       pivot: {x: 0, y: 0.5}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -284,8 +299,13 @@ TextureImporter:
         y: 0
         width: 192
         height: 32
+<<<<<<< Updated upstream
       alignment: 4
       pivot: {x: 0, y: 0.5}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -306,8 +326,13 @@ TextureImporter:
         y: 0
         width: 192
         height: 32
+<<<<<<< Updated upstream
       alignment: 4
       pivot: {x: 0, y: 0.5}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -328,8 +353,13 @@ TextureImporter:
         y: 0
         width: 192
         height: 32
+<<<<<<< Updated upstream
       alignment: 4
       pivot: {x: 0, y: 0.5}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -350,8 +380,13 @@ TextureImporter:
         y: 0
         width: 192
         height: 32
+<<<<<<< Updated upstream
       alignment: 4
       pivot: {x: 0, y: 0.5}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -372,8 +407,13 @@ TextureImporter:
         y: 0
         width: 192
         height: 32
+<<<<<<< Updated upstream
       alignment: 4
       pivot: {x: 0, y: 0.5}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -394,8 +434,13 @@ TextureImporter:
         y: 0
         width: 192
         height: 32
+<<<<<<< Updated upstream
       alignment: 4
       pivot: {x: 0, y: 0.5}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -416,8 +461,13 @@ TextureImporter:
         y: 0
         width: 192
         height: 32
+<<<<<<< Updated upstream
       alignment: 4
       pivot: {x: 0, y: 0.5}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -438,8 +488,13 @@ TextureImporter:
         y: 0
         width: 192
         height: 32
+<<<<<<< Updated upstream
       alignment: 4
       pivot: {x: 0, y: 0.5}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -460,8 +515,13 @@ TextureImporter:
         y: 0
         width: 192
         height: 32
+<<<<<<< Updated upstream
       alignment: 4
       pivot: {x: 0, y: 0.5}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -482,8 +542,13 @@ TextureImporter:
         y: 0
         width: 192
         height: 32
+<<<<<<< Updated upstream
       alignment: 4
       pivot: {x: 0, y: 0.5}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -504,8 +569,13 @@ TextureImporter:
         y: 0
         width: 192
         height: 32
+<<<<<<< Updated upstream
       alignment: 4
       pivot: {x: 0, y: 0.5}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -526,8 +596,13 @@ TextureImporter:
         y: 0
         width: 192
         height: 32
+<<<<<<< Updated upstream
       alignment: 4
       pivot: {x: 0, y: 0.5}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -548,8 +623,13 @@ TextureImporter:
         y: 0
         width: 192
         height: 32
+<<<<<<< Updated upstream
       alignment: 4
       pivot: {x: 0, y: 0.5}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -576,7 +656,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
+<<<<<<< Updated upstream
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":192.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.5},"autoSlicingMethod":0,"spriteAlignment":4,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+=======
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":192.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+>>>>>>> Stashed changes
     nameFileIdTable:
       '[ASSEMBLE] Thick Bazooka - M20_0': 3229878969697161539
       '[ASSEMBLE] Thick Bazooka - M20_1': 8409523307787553613

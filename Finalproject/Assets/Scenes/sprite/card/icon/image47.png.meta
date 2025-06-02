@@ -13,7 +13,11 @@ TextureImporter:
   - first:
       213: 5087340662866164683
     second: "ChatGPT Image 2025\u5E746\u67082\u65E5 \u4E0B\u534805_08_54_0"
+<<<<<<< Updated upstream
 >>>>>>>> efce2fc416bb3d6970f4ccadb6ad1bdef8d9c41b:finalproject/Assets/prefab/Shop/hp point.png.meta
+=======
+>>>>>>>> d157b5617b6cca044c579317eb14492c6ead301a:finalproject/Assets/prefab/Shop/hp point.png.meta
+>>>>>>> Stashed changes
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,7 +129,11 @@ TextureImporter:
         y: 48
         width: 979
         height: 971
+<<<<<<< Updated upstream
 >>>>>>>> efce2fc416bb3d6970f4ccadb6ad1bdef8d9c41b:finalproject/Assets/prefab/Shop/hp point.png.meta
+=======
+>>>>>>>> d157b5617b6cca044c579317eb14492c6ead301a:finalproject/Assets/prefab/Shop/hp point.png.meta
+>>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,7 +148,11 @@ TextureImporter:
 ========
       spriteID: bcbb985016dd99640800000000000000
       internalID: 5087340662866164683
+<<<<<<< Updated upstream
 >>>>>>>> efce2fc416bb3d6970f4ccadb6ad1bdef8d9c41b:finalproject/Assets/prefab/Shop/hp point.png.meta
+=======
+>>>>>>>> d157b5617b6cca044c579317eb14492c6ead301a:finalproject/Assets/prefab/Shop/hp point.png.meta
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -163,7 +175,11 @@ TextureImporter:
 ========
     nameFileIdTable:
       "ChatGPT Image 2025\u5E746\u67082\u65E5 \u4E0B\u534805_08_54_0": 5087340662866164683
+<<<<<<< Updated upstream
 >>>>>>>> efce2fc416bb3d6970f4ccadb6ad1bdef8d9c41b:finalproject/Assets/prefab/Shop/hp point.png.meta
+=======
+>>>>>>>> d157b5617b6cca044c579317eb14492c6ead301a:finalproject/Assets/prefab/Shop/hp point.png.meta
+>>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
