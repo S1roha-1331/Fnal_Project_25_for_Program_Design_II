@@ -2,16 +2,22 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Collections;
+using Unity.VisualScripting;
 
 public class SceneSwitcher : MonoBehaviour
 {
-    
+    private int index;
+    public GameObject a;
     public void DeactivateAllChildren()
     {
-        for (int i = 0; i < transform.childCount ; i++)
+        if (a.GetComponent<CharacterShowcase>().currentIndex == 0)
         {
-            transform.GetChild(i).gameObject.SetActive(false);
+            for (int i = 0; i < transform.childCount - 2; i++)
+            {
+                transform.GetChild(i).gameObject.SetActive(false);
+            }
         }
+        
     }
 }
 

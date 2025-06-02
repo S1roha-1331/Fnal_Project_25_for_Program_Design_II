@@ -5,7 +5,7 @@ public class CharacterShowcase : MonoBehaviour
 {
     public GameObject[] characters;
     public float moveDuration = 0.5f;
-    private int currentIndex = 0;
+    public int currentIndex = 0;
     private bool isSwitching = false;
     public List<Info> database;
     private void Awake()
@@ -36,8 +36,11 @@ public class CharacterShowcase : MonoBehaviour
     }
     public void Release()
     {   
-        Debug.Log("釋放所有角色的剛體");
-        characters[currentIndex].GetComponent<Rigidbody2D>().simulated = true;
+        Debug.Log("release");
+        if (currentIndex == 0)
+        {
+            characters[currentIndex].GetComponent<Rigidbody2D>().simulated = true;
+        }
 
     }
     public void DeactivateAllChildren()
