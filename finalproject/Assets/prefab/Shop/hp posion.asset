@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 079aafbe31bdb5040a407a87779b0a90, type: 3}
-  m_Name: NewShopItem
+  m_Name: hp posion
   m_EditorClassIdentifier: 
-  itemName: hp point
+  itemName: hp posion
   price: 100
-  icon: {fileID: 5087340662866164683, guid: 491b1bfafd90e91438f09bc9adfb613a, type: 3}
+  icon: {fileID: 21300000, guid: 88af7371cc8145f43823cf8e2a18c23d, type: 3}

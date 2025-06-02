@@ -27,7 +27,7 @@ public class ExperienceManager : MonoBehaviour
 
     IEnumerator DelayedLevelUpdate()
     {
-        yield return null; // µ¥«Ý¤@´V
+        yield return null; // ï¿½ï¿½ï¿½Ý¤@ï¿½V
         currentLevel = 1;
         totalExperience = (int)experienceCurve.Evaluate(currentLevel);
         UpdateLevel();
@@ -35,10 +35,7 @@ public class ExperienceManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            AddExperience(5);
-        }
+       
     }
 
     public void AddExperience(int amount)
@@ -55,7 +52,7 @@ public class ExperienceManager : MonoBehaviour
             currentLevel++;
             upgradeUI.instance.ShowUpgradeOptions();
             UpdateLevel();
-            // ¥i¥H¥[°Êµe¡B­µ®Ä©Î¯S®Ä
+            // ï¿½iï¿½Hï¿½[ï¿½Êµeï¿½Bï¿½ï¿½ï¿½Ä©Î¯Sï¿½ï¿½
         }
     }
 
@@ -71,7 +68,7 @@ public class ExperienceManager : MonoBehaviour
 
         if (playerHealth != null)
         {
-            playerHealth.OnLevelUp(); // ¦^º¡¦åµ¥ÅÞ¿è
+            playerHealth.OnLevelUp(); // ï¿½^ï¿½ï¿½ï¿½åµ¥ï¿½Þ¿ï¿½
         }
         UpdateInterface();
     }
