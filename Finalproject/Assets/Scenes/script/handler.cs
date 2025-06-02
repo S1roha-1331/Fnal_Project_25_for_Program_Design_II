@@ -64,7 +64,10 @@ public class LoadingScene : MonoBehaviour
             worldPosition.z = 0f;
             Quaternion rotation = Quaternion.Euler(90f, 0f, 0f);
             Instantiate(C, c, rotation);
-            //    Collider2D hit = Physics2D.OverlapPoint(worldPosition);
+            if(SceneManager.GetActiveScene().name == "loadingscene" && A != null) 
+            {
+                A.transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = messages[Random.Range(0, 4)];
+            }
             //   Judge(hit);
         }
     }
@@ -92,7 +95,7 @@ public class LoadingScene : MonoBehaviour
             yield return null;
         }
 
-        // 等待場景切換完成後，再實例化物件
+      
        // LoadingCanvas = GameObject.Find("Canvas1");
       //  LoadingScreen = GameObject.Find("Grid");
 
@@ -124,12 +127,16 @@ public class LoadingScene : MonoBehaviour
 
         while (!operation.isDone)
         {
-            float progressValue = Mathf.Clamp01(operation.progress / 0.9f) * 0.5f + 0.5F;
+            float progressValue = Mathf.Clamp01(operation.progress / 1f) * 0.5f + 0.5f;
             secChildObj.GetComponent<Image>().fillAmount = progressValue;
             yield return null;
         }
     }
-    
+    public void Changetext()
+    {
+
+    }
+
 }
 public class Pos {
     public Transform a;

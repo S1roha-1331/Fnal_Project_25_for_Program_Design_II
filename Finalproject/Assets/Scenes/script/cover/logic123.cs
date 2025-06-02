@@ -12,6 +12,7 @@ public class SpawnEffectOnClick : MonoBehaviour
     public GameObject effectPrefab;
     public GameObject showcase;
     public GameObject canvas;
+    public GameObject locker;
    // public player a;
     private void Awake()
     {
@@ -25,16 +26,17 @@ public class SpawnEffectOnClick : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Vector3 clickPosition = Input.mousePosition; clickPosition.z = 100f;
-            Debug.Log("ÂIÀ»¤F·Æ¹«¡I");
-            clickPosition.z = -Camera.main.transform.position.z;
-            Vector3 worldPosition = Camera.main.ScreenToWorldPoint(clickPosition);
-            Vector3 c = worldPosition; c.z = 100f;
-            worldPosition.z = 0f;
-            Quaternion rotation = Quaternion.Euler(90f, 0f, 0f);
-            Instantiate(effectPrefab, c, rotation);
-        //    Collider2D hit = Physics2D.OverlapPoint(worldPosition);
-         //   Judge(hit);
+            Vector3 mousePos = Input.mousePosition;
+            mousePos.z = 10f; 
+
+            Vector3 worldPos = Camera.main.ScreenToWorldPoint(mousePos);
+            float distance = Vector2.Distance(new Vector2(locker.transform.position.x, locker.transform.position.y),
+                                          new Vector2(worldPos.x, worldPos.y));
+
+            if (distance < 20f)
+            {
+                locker.GetComponent<Lock>().Rotation();
+            }
         }
 
 
