@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2504a8c940557634d84ad92d14437edb, type: 3}
+  m_Name: Vital Essence I
+  m_EditorClassIdentifier: 
+  upgradeName: Vital Essence I
+  description: A faint warmth flows through you, bolstering your vitality.
+  icon: {fileID: 3569752371670531872, guid: 34e5478f7fa576a4ab2b68b2268292ea, type: 3}
+  background: {fileID: 8516844521304844067, guid: 39b40dd68d18c2c43ba38e5906111ede, type: 3}
+  effectType: 6
+  upgradeKind: 1
