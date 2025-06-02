@@ -142,7 +142,7 @@ GameObject:
   - component: {fileID: 6964845660625778014}
   m_Layer: 7
   m_Name: warrior
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -156,8 +156,8 @@ Transform:
   m_GameObject: {fileID: 2621558447824117822}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.72, y: 0, z: 0}
-  m_LocalScale: {x: 0.9899, y: 0.9899, z: 0.9899}
+  m_LocalPosition: {x: -11.717, y: 0.59595, z: 0}
+  m_LocalScale: {x: 0.688911, y: 0.688911, z: 0.688911}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4476435568753519150}
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 711071b89b905e04bbb4a57466ff2629, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
+  maxHealth: 50
   currentHealth: 0
   moveSpeed: 5
   attackDamage: 10
@@ -266,7 +266,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2621558447824117822}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -344,7 +344,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4801357559374616224}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}

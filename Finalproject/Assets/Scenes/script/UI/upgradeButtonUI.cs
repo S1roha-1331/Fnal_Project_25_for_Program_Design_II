@@ -25,6 +25,7 @@ public class upgradeButtonUI : MonoBehaviour
     {
         UpgradeManager.instance.applyUpgrade(upgradeData);
         upgradeUI.instance.Hide();
+        Time.timeScale = 1f;
     }
     
 }
