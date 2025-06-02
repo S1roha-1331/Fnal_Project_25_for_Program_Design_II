@@ -12,7 +12,7 @@ public class playerHealth : MonoBehaviour,IDamageable
     {
         stats = GetComponent<playerStats>();
         animator=GetComponent<playerAnimator>();
-        // ­q¾\µ¥¯ÅÅÜ§ó¨Æ¥ó
+        // ï¿½qï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½Ü§ï¿½Æ¥ï¿½
         stats.OnLevelChanged += HandleLevelUp;
 
         UpdateMaxHealth();
@@ -22,20 +22,20 @@ public class playerHealth : MonoBehaviour,IDamageable
 
     void OnDestroy()
     {
-        // ¨¾¤î°O¾ÐÅé¬ªº|¡A¨ú®ø­q¾\¨Æ¥ó
+        // ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½é¬ªï¿½|ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½qï¿½\ï¿½Æ¥ï¿½
         if (stats != null)
             stats.OnLevelChanged -= HandleLevelUp;
     }
 
     void HandleLevelUp(int newLevel)
     {
-        // µ¥¯Å§ó·s®É·|©I¥s³o¸Ì
+        // ï¿½ï¿½ï¿½Å§ï¿½sï¿½É·|ï¿½Iï¿½sï¿½oï¿½ï¿½
         OnLevelUp();
     }
 
     public void takeDamage(float amount)
     {
-        Debug.Log($"¨ü¨ì{amount}ÂI¶Ë®`");
+        Debug.Log($"ï¿½ï¿½ï¿½ï¿½{amount}ï¿½Iï¿½Ë®`");
         animator.triggerHurt();
         currentHp -= amount;
 
@@ -57,7 +57,7 @@ public class playerHealth : MonoBehaviour,IDamageable
 
         if (restoreFullHealth)  
         {
-            currentHp = maxHp;  // ¤É¯Å®É¦^¦å
+            currentHp = maxHp;  // ï¿½É¯Å®É¦^ï¿½ï¿½
         }
         else
         {

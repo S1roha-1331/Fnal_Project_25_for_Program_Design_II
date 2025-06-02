@@ -38,13 +38,41 @@ public class ShopUI : MonoBehaviour
         if (InventoryManager.Instance.SpendCoins(item.price))
         {
             Debug.Log("已購買：" + item.itemName);
-            insufficientText.text = ""; 
+            ApplyStatUpgrade(item.targetStat, item.amount);
+            insufficientText.text = "";
         }
         else
         {
             Debug.Log("金幣不足");
             StartCoroutine(ShowInsufficientMessage());
         }
+    }
+    void ApplyStatUpgrade(StatType stat, float amount)
+    {
+        var stats = playerStats.instance;
+        if (stats == null)
+        {
+            Debug.LogWarning("找不到 playerStats 實例");
+            return;
+        }
+
+        switch (stat)
+        {
+            case StatType.Attack:
+                stats.basicAttack += amount;
+                break;
+            case StatType.Speed:
+                stats.playerController.basicSpeed += amount;
+                stats.playerController.finalSpeed = stats.playerController.basicSpeed;
+                break;
+            case StatType.Health:
+                stats.basicHealth += amount;
+                stats.playerHealth.maxHp = stats.MaxHealth;
+                stats.playerHealth.currentHp = stats.playerHealth.maxHp;
+                break;
+        }
+
+        Debug.Log($"[永久升級] {stat} +{amount}");
     }
 
     IEnumerator ShowInsufficientMessage()

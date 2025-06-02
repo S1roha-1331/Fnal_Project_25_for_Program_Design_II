@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: attack posion
   m_EditorClassIdentifier: 
   itemName: attack posion
-  price: 100
   icon: {fileID: 909864845766881778, guid: 2d8f3ac8cd84d494da4a306a6e21b6f9, type: 3}
+  price: 100
+  targetStat: 0
+  amount: 1
