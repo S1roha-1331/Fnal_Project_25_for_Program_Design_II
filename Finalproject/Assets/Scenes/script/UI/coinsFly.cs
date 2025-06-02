@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class coinsFly : MonoBehaviour
+public class CoinsFly : MonoBehaviour
 {
     public int coinsAmount = 5;
     public float moveSpeed = 8f;
@@ -9,33 +9,42 @@ public class coinsFly : MonoBehaviour
     private Transform player;
     private Vector3 velocity = Vector3.zero;
     private bool isFlying = false;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private bool hasCollected = false;
+
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform; ;
-        Vector2 randomOffset = UnityEngine.Random.insideUnitCircle * 5f;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        Vector2 randomOffset = Random.insideUnitCircle * 5f;
         transform.position += new Vector3(randomOffset.x, randomOffset.y, 0);
-        Invoke("startFlying", 0.2f);
+        Invoke(nameof(StartFlying), 0.2f);
     }
-    void startFlying()
+
+    void StartFlying()
     {
         isFlying = true;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (isFlying && player != null)
         {
-            transform.position = Vector3.SmoothDamp(transform.position, player.position, ref velocity, smoothTime, moveSpeed);
-
+            transform.position = Vector3.SmoothDamp(
+                transform.position,
+                player.position,
+                ref velocity,
+                smoothTime,
+                Mathf.Infinity,
+                Time.deltaTime
+            );
         }
     }
+
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (!hasCollected && other.CompareTag("Player"))
         {
-            iventoryManager.instance.addCoins(coinsAmount);
+            hasCollected = true;
+            InventoryManager.Instance.AddCoins(coinsAmount);
             Destroy(gameObject);
         }
     }
