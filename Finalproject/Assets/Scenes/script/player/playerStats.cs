@@ -12,11 +12,21 @@ public class playerStats : MonoBehaviour
     public playerHealth playerHealth;
     private int level = 1;
 
-    private void Awake()
+    void Awake()
     {
-        instance = this;
-        finalAttack=basicAttack;
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject); 
+        }
+        else
+        {
+            Destroy(gameObject); 
+        }
+
+        finalAttack = basicAttack;
     }
+
     public int Level
     {
         get => level;
