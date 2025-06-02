@@ -88,6 +88,8 @@ public class weaponStat : MonoBehaviour
     void Start()
     {
         order = GameObject.FindWithTag("Player").GetComponent<weaponOrder>();
+        control = GetComponent<weaponControl>();
+
         weaponDamage = defaultDamage;
         weaponDurability = defaultDurability;
         attackCooldown = defaultCooldown;
