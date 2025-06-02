@@ -16,7 +16,7 @@ public class upgradeUI : MonoBehaviour
     public void ShowUpgradeOptions()
     {
         panel.SetActive(true);
-        Time.timeScale = 0f;
+
         // ÀH¾÷¬D 3 ­Ó¤É¯Å
         List<UpgradeData> selected = new List<UpgradeData>();
         while (selected.Count < 3)
