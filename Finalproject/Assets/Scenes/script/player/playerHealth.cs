@@ -12,12 +12,8 @@ public class playerHealth : MonoBehaviour,IDamageable
     {
         stats = GetComponent<playerStats>();
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
         animator=GetComponent<playerAnimator>();
         // ï¿½qï¿½\ï¿½ï¿½ï¿½ï¿½ï¿½Ü§ï¿½Æ¥ï¿½
-=======
-        Animator=GetComponent<playerAnim>();
->>>>>>> Stashed changes
 =======
         Animator=GetComponent<playerAnim>();
 >>>>>>> Stashed changes
@@ -30,10 +26,7 @@ public class playerHealth : MonoBehaviour,IDamageable
     void OnDestroy()
     {
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
         // ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½é¬ªï¿½|ï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½qï¿½\ï¿½Æ¥ï¿½
-=======
->>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         if (stats != null)
@@ -43,10 +36,7 @@ public class playerHealth : MonoBehaviour,IDamageable
     void HandleLevelUp(int newLevel)
     {
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
         // ï¿½ï¿½ï¿½Å§ï¿½sï¿½É·|ï¿½Iï¿½sï¿½oï¿½ï¿½
-=======
->>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         OnLevelUp();
@@ -55,13 +45,8 @@ public class playerHealth : MonoBehaviour,IDamageable
     public void takeDamage(float amount)
     {
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
         Debug.Log($"ï¿½ï¿½ï¿½ï¿½{amount}ï¿½Iï¿½Ë®`");
         animator.triggerHurt();
-=======
-        Debug.Log($"¨ü¨ì{amount}ÂI¶Ë®`");
-        Animator.triggerHurt();
->>>>>>> Stashed changes
 =======
         Debug.Log($"¨ü¨ì{amount}ÂI¶Ë®`");
         Animator.triggerHurt();
