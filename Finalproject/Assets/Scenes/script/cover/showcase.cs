@@ -36,12 +36,11 @@ public class CharacterShowcase : MonoBehaviour
     }
     public void Release()
     {   
-        Debug.Log("release");
+        Debug.Log("釋放所有角色的剛體");
         if (currentIndex == 0)
         {
             characters[currentIndex].GetComponent<Rigidbody2D>().simulated = true;
         }
-
     }
     public void DeactivateAllChildren()
     {

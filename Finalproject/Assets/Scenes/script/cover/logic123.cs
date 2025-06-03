@@ -1,5 +1,5 @@
 using UnityEngine;
-using static UnityEditor.PlayerSettings;
+//using static UnityEditor.PlayerSettings;
 using static UnityEngine.Rendering.DebugUI.Table;
 using System.Collections;
 using System.Collections.Generic;
@@ -34,6 +34,7 @@ public class SpawnEffectOnClick : MonoBehaviour
         }
         if (Input.GetMouseButtonDown(0))
         {
+
             Vector3 mousePos = Input.mousePosition;
             mousePos.z = 10f; 
 
@@ -45,13 +46,16 @@ public class SpawnEffectOnClick : MonoBehaviour
             {
                 locker.GetComponent<Lock>().Rotation();
             }
+
         }
 
 
     }
     public void Buttonfunc()
-    {
-        buttonevent.Invoke();
+    {   if (showcase.GetComponent<CharacterShowcase>().currentIndex == 0)
+        {
+            buttonevent.Invoke();
+        }
     }
 
 

@@ -3,12 +3,12 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    public float basicSpeed = 5f;
+    public float basicSpeed = 20f;
     public float finalSpeed;
     private playerHealth playerHealth;
     private Rigidbody2D rb;
     private SpriteRenderer sr;
-    private playerAnimator playerAnimator;
+    private playerAnim playerAnimator;
 
     private Vector2 moveInput;
     private Vector2 lookInput;
@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        playerAnimator = GetComponent<playerAnimator>();
+        playerAnimator = GetComponent<playerAnim>();
         playerHealth = GetComponent<playerHealth>();
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
