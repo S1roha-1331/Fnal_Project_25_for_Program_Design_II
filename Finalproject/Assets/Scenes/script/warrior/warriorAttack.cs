@@ -21,15 +21,17 @@ public class warriorAttack : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        attackCooldown=1/warriorStats.attackSpeed;
+        GameObject player = GameObject.FindWithTag("Player");
+        attackCooldown =1/warriorStats.attackSpeed;
         attackTimer = attackCooldown;
         skillTimer=warriorStats.skillCooldown;  
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        playerHealth target = collision.GetComponentInParent<playerHealth>(); // ? §ï³o¦æ
+        if (target != null)
         {
-            playerHealth.takeDamage(warriorStats.attackDamage);
+            target.takeDamage(warriorStats.attackDamage);
         }
     }
 

@@ -1342,6 +1342,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 2
   m_VerticalFit: 2
+--- !u!114 &1246921225 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7608063538037030496, guid: 34eb1996ec2dc7a439bc22c7ed15305d, type: 3}
+  m_PrefabInstance: {fileID: 1247036160}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0204ff33322b2b744b5744158b11839d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1246921226 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7501867755809571931, guid: 34eb1996ec2dc7a439bc22c7ed15305d, type: 3}
+  m_PrefabInstance: {fileID: 1247036160}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d42017fbca1886b4b8694f4750ecde0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1247036160
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1960,8 +1982,8 @@ MonoBehaviour:
   levelText: {fileID: 2123380920843290604}
   experienceText: {fileID: 5410591761574565578}
   experienceFill: {fileID: 6472080282857311692}
-  playerStats: {fileID: 0}
-  playerHealth: {fileID: 0}
+  playerStats: {fileID: 1246921226}
+  playerHealth: {fileID: 1246921225}
 --- !u!224 &2660918177212631079
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3301,9 +3323,9 @@ MonoBehaviour:
   itemPrefab: {fileID: 1874232436422084077, guid: 1c8aa2b53bfc49445a6e51abf587bd00, type: 3}
   contentArea: {fileID: 1200804431}
   items:
-  - {fileID: 11400000, guid: 99d7db467d1753c4f9f48f43968324c6, type: 2}
-  - {fileID: 11400000, guid: f5f85cd67b847c244817209c2157a621, type: 2}
-  - {fileID: 11400000, guid: 3057c4fdbc083ac44b51dd98cc4789f4, type: 2}
+  - {fileID: 11400000, guid: 73f0af053eb29a6488ba23e2a14615c4, type: 2}
+  - {fileID: 11400000, guid: f07aab5cb8ca04c4885bab7c024f412d, type: 2}
+  - {fileID: 11400000, guid: 9af2346b8b733e744ae059ebad5fc81c, type: 2}
   insufficientText: {fileID: 1016502352}
 --- !u!1 &8675903503262173584
 GameObject:
