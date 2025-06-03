@@ -44,7 +44,7 @@ public class CharacterShowcase : MonoBehaviour
     }
     public void DeactivateAllChildren()
     {
-        for (int i = 0; i < transform.childCount - 1; i++)
+        for (int i = 0; i < transform.childCount - 2; i++)
         {
             transform.GetChild(i).gameObject.SetActive(false);
         }
