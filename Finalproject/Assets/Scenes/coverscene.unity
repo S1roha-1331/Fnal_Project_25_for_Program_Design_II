@@ -17608,8 +17608,8 @@ MonoBehaviour:
   messages:
   - Card is omnipotent
   - We don't charge, but we want you to donate
-  - 'tips : if you win the game , please realize you are still alone'
-  - poor Tarnished, why you undertake this impossible dream ?
+  - 'Tips : if you win the game , please realize you are still alone'
+  - Poor Tarnished, why you undertake this impossible dream ?
 --- !u!4 &742458344
 Transform:
   m_ObjectHideFlags: 0
