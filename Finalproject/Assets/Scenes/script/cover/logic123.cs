@@ -23,7 +23,15 @@ public class SpawnEffectOnClick : MonoBehaviour
     // public GameObject model;
     public int count = 0;
     void Update()
-    {
+    {   
+        if(locker.GetComponent<Lock>().isrotating == false && showcase.GetComponent<CharacterShowcase>().currentIndex == 0 )
+        {
+            locker.GetComponent<Lock>().setfalse(); 
+        }
+        else
+        {
+            locker.GetComponent<Lock>().settrue(); 
+        }
         if (Input.GetMouseButtonDown(0))
         {
             Vector3 mousePos = Input.mousePosition;
@@ -33,7 +41,7 @@ public class SpawnEffectOnClick : MonoBehaviour
             float distance = Vector2.Distance(new Vector2(locker.transform.position.x, locker.transform.position.y),
                                           new Vector2(worldPos.x, worldPos.y));
 
-            if (distance < 20f)
+            if (distance < 4f)
             {
                 locker.GetComponent<Lock>().Rotation();
             }

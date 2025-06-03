@@ -54,7 +54,7 @@ public class LoadingScene : MonoBehaviour
     public void Update()
     {
         int randomNumber = Random.Range(0, 5);
-        if(Input.GetMouseButtonDown(0) && SceneManager.GetActiveScene().name == "loadingscene")
+        if(Input.GetMouseButtonDown(0) && (SceneManager.GetActiveScene().name == "loadingscene" || SceneManager.GetActiveScene().name == "coverscene"))
         {
             Vector3 clickPosition = Input.mousePosition; clickPosition.z = 100f;
             Debug.Log("ÂIÀ»¤F·Æ¹«¡I");
