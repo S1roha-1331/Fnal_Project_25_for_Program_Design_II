@@ -6,9 +6,11 @@ public class ResultUIManager : MonoBehaviour
     public static ResultUIManager instance;
     public GameObject resultPanel;
     public TextMeshProUGUI coinText;
+    public InventoryManager inventoryManager;
 
     private void Awake()
     {
+        inventoryManager = FindAnyObjectByType<InventoryManager>();
         instance = this;
         resultPanel.SetActive(false); 
     }
@@ -17,7 +19,7 @@ public class ResultUIManager : MonoBehaviour
     {
         resultPanel.SetActive(true);
         Time.timeScale = 0f;
-        int coinAmount = InventoryManager.Instance.coins;
+        int coinAmount = inventoryManager.coins;
         coinText.text=coinAmount.ToString();
     }
     public void quitGame()

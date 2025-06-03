@@ -20,9 +20,12 @@ public class ExperienceManager : MonoBehaviour
     [SerializeField] playerStats playerStats;
     [SerializeField] playerHealth playerHealth;
 
+    upgradeUI uui;
+
     void Start()
     {
         StartCoroutine(DelayedLevelUpdate());
+        uui = FindAnyObjectByType<upgradeUI>();
     }
 
     IEnumerator DelayedLevelUpdate()
@@ -53,7 +56,7 @@ public class ExperienceManager : MonoBehaviour
         if (totalExperience >= nextLevelsExperience)
         {
             currentLevel++;
-            upgradeUI.instance.ShowUpgradeOptions();
+            uui.ShowUpgradeOptions();
             UpdateLevel();
             // 可以加動畫、音效或特效
         }

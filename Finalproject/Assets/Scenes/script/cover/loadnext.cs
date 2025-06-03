@@ -20,12 +20,12 @@ public class loadnext : MonoBehaviour
 
 
         // 判斷是否是特定標籤的物件
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") )
         {
 
 
 
-            a.LoadScene(sceneid);
+            a.LoadScene(2);
 
             //StartCoroutine(FadeIn());
             //    SceneManager.LoadScene(SceneManager.GetActiveScene().name);

@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    public float basicSpeed = 5f;
+    public float basicSpeed = 20f;
     public float finalSpeed;
     private playerHealth playerHealth;
     private Rigidbody2D rb;
