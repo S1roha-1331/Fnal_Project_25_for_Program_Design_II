@@ -5,7 +5,7 @@ public class CharacterShowcase : MonoBehaviour
 {
     public GameObject[] characters;
     public float moveDuration = 0.5f;
-    private int currentIndex = 0;
+    public int currentIndex = 0;
     private bool isSwitching = false;
     public List<Info> database;
     private void Awake()
@@ -42,7 +42,7 @@ public class CharacterShowcase : MonoBehaviour
     }
     public void DeactivateAllChildren()
     {
-        for (int i = 0; i < transform.childCount - 1; i++)
+        for (int i = 0; i < transform.childCount - 2; i++)
         {
             transform.GetChild(i).gameObject.SetActive(false);
         }

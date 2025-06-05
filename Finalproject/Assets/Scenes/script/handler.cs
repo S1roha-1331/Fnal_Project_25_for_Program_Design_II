@@ -7,7 +7,7 @@ using TMPro;
 //using System.Collections.Generic;
 public class LoadingScene : MonoBehaviour
 {
-    public LoadingScene Instance;
+    public static LoadingScene Instance;
     public GameObject LoadingScreen;
     public GameObject LoadingCanvas;
     public GameObject LoadingScreen1;
@@ -18,7 +18,7 @@ public class LoadingScene : MonoBehaviour
     private GameObject A;
     private GameObject B;
     public GameObject C;
-    public string[] messages = new string[] { "Card is omnipotent", "We don't charge, but we want you to donate", "tips : if you win the game , please realize you are still alone" ,"poor Tarnished, why you undertake this impossible dream ?"};
+    public string[] messages = new string[] { "Tips : Card is omnipotent", "Tips : We don't charge, but we want you to donate", "Tips : If you win the game , please realize you are still alone" ,"Tips : Poor Tarnished, why you undertake this impossible dream ?"};
     // public TextMeshProUGUI hintText;
     void Awake()
     {   
@@ -54,17 +54,18 @@ public class LoadingScene : MonoBehaviour
     public void Update()
     {
         int randomNumber = Random.Range(0, 5);
-        if(Input.GetMouseButtonDown(0) && SceneManager.GetActiveScene().name == "loadingscene")
+        if(Input.GetMouseButtonDown(0) && (SceneManager.GetActiveScene().name == "loadingscene" || SceneManager.GetActiveScene().name == "coverscene")) 
         {
             Vector3 clickPosition = Input.mousePosition; clickPosition.z = 100f;
             Debug.Log("ÂIÀ»¤F·Æ¹«¡I");
             clickPosition.z = -Camera.main.transform.position.z;
             Vector3 worldPosition = Camera.main.ScreenToWorldPoint(clickPosition);
-            Vector3 c = worldPosition; c.z = 100f;
+            Vector3 c = worldPosition; 
+            c.z = 100f;
             worldPosition.z = 0f;
             Quaternion rotation = Quaternion.Euler(90f, 0f, 0f);
             Instantiate(C, c, rotation);
-            if(SceneManager.GetActiveScene().name == "loadingscene" && A != null) 
+            if( A != null) 
             {
                 A.transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = messages[Random.Range(0, 4)];
             }
@@ -118,7 +119,7 @@ public class LoadingScene : MonoBehaviour
         while (t < delaysecond)
         {
             t += Time.deltaTime;
-            secChildObj.GetComponent<Image>().fillAmount = Mathf.Clamp01(t /  2 * delaysecond);
+            secChildObj.GetComponent<Image>().fillAmount = Mathf.Clamp01(t /  (2 * delaysecond));
             yield return null;
         }
         AsyncOperation operation = SceneManager.LoadSceneAsync(sceneId);
@@ -127,7 +128,7 @@ public class LoadingScene : MonoBehaviour
 
         while (!operation.isDone)
         {
-            float progressValue = Mathf.Clamp01(operation.progress / 1f) * 0.5f + 0.5f;
+            float progressValue = Mathf.Clamp01(operation.progress / 0.9f) * 0.5f + 0.5f;
             secChildObj.GetComponent<Image>().fillAmount = progressValue;
             yield return null;
         }
