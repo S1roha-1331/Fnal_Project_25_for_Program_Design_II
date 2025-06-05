@@ -7,14 +7,14 @@ using TMPro;
 //using System.Collections.Generic;
 public class LoadingScene : MonoBehaviour
 {
-    public LoadingScene Instance;
+    public static LoadingScene Instance;
     public GameObject LoadingScreen;
     public GameObject LoadingCanvas;
     public GameObject LoadingScreen1;
     public GameObject LoadingCanvas1;
     public static Transform parent;
     public List<Pos> posList = new List<Pos>();
-    public float delayesecond = 3f;
+    public float delayesecond = 2f;
     private GameObject A;
     private GameObject B;
     public GameObject C;
@@ -122,7 +122,7 @@ public class LoadingScene : MonoBehaviour
         while (t < delaysecond)
         {
             t += Time.deltaTime;
-            secChildObj.GetComponent<Image>().fillAmount = Mathf.Clamp01(t /  2 * delaysecond);
+            secChildObj.GetComponent<Image>().fillAmount = Mathf.Clamp01(t /  (2 * delaysecond));
             yield return null;
         }
         AsyncOperation operation = SceneManager.LoadSceneAsync(sceneId);
@@ -131,7 +131,7 @@ public class LoadingScene : MonoBehaviour
 
         while (!operation.isDone)
         {
-            float progressValue = Mathf.Clamp01(operation.progress / 1f) * 0.5f + 0.5f;
+            float progressValue = Mathf.Clamp01(operation.progress /0.9f) * 0.5f + 0.5f;
             secChildObj.GetComponent<Image>().fillAmount = progressValue;
             yield return null;
         }
