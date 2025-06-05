@@ -58,7 +58,7 @@ git clone https://github.com/S1roha-1331/Fnal_Project_25_for_Program_Design_II.g
 
 4. Wait for Unity to <span style="color:purple">**import all assets**</span> and dependencies
 
-5. Open the <span style="color:blue">**main scene**</span> and press <span style="color:green">**Play**</span> to start the game
+5. Open <span style="color:blue">**build profile window**</span> and select <span style="color:green">**TestForDemo**</span> build profile to build and run the game preview 
 
 ### 🎯 <span style="color:crimson">Controls</span>
 
