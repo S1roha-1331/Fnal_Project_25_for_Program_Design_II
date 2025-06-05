@@ -4,6 +4,12 @@
 ![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)
 ![Platform](https://img.shields.io/badge/Platform-PC-blue)
 
+> [!IMPORTANT]
+> The game is still in a very early stage development, please do not expect anything amazing.
+
+> [!CAUTION]
+> The preview and the game on main branch have lots of bugs and some features are not full functional.
+
 A <span style="color:crimson">**challenging**</span> roguelike survival game built in <span style="color:blue">**Unity**</span> where every run is different and death means starting over!
 
 <div align="center">
