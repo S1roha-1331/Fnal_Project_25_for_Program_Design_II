@@ -4,6 +4,12 @@
 ![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)
 ![Platform](https://img.shields.io/badge/Platform-PC-blue)
 
+> [!IMPORTANT]
+> The game is still in a very early stage development, please do not expect anything amazing.
+
+> [!CAUTION]
+> The preview and the game on main branch have lots of bugs and some features are not full functional.
+
 A <span style="color:crimson">**challenging**</span> roguelike survival game built in <span style="color:blue">**Unity**</span> where every run is different and death means starting over!
 
 <div align="center">
@@ -52,7 +58,7 @@ git clone https://github.com/S1roha-1331/Fnal_Project_25_for_Program_Design_II.g
 
 4. Wait for Unity to <span style="color:purple">**import all assets**</span> and dependencies
 
-5. Open the <span style="color:blue">**main scene**</span> and press <span style="color:green">**Play**</span> to start the game
+5. Open <span style="color:blue">**build profile window**</span> and select <span style="color:green">**TestForDemo**</span> build profile to build and run the game preview 
 
 ### 🎯 <span style="color:crimson">Controls</span>
 
